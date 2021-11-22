@@ -1,0 +1,42 @@
+[Jul 04 23:25:04.529] [ message] [VGAuthService] VGAuthService 'build-5055683' logging at level 'normal'
+[Jul 04 23:25:04.530] [ message] [VGAuthService] Pref_LogAllEntries: 1 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[Jul 04 23:25:04.530] [ message] [VGAuthService] Group 'service'
+[Jul 04 23:25:04.530] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[Jul 04 23:25:04.530] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[Jul 04 23:25:04.530] [ message] [VGAuthService] Cannot load message catalog for domain 'VGAuthService', language 'C', catalog dir '.'.
+[Jul 04 23:25:04.530] [ message] [VGAuthService] INIT SERVICE
+[Jul 04 23:25:04.530] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[Jul 04 23:25:04.542] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[Jul 04 23:25:04.579] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[Jul 04 23:25:04.579] [ message] [VGAuthService] SAML_Init: Using xmlsec1 for XML signature support
+[Jul 04 23:25:04.579] [ message] [VGAuthService] ServiceNetworkListen: Created socket directory '/var/run/vmware'
+[Jul 04 23:25:04.579] [ message] [VGAuthService] BEGIN SERVICE
+[Jul 27 20:07:50.466] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[Jul 27 20:07:50.467] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[Jul 27 20:07:50.468] [ message] [VGAuthService] END SERVICE
+[Jul 27 20:08:09.935] [ message] [VGAuthService] VGAuthService 'build-5055683' logging at level 'normal'
+[Jul 27 20:08:09.935] [ message] [VGAuthService] Pref_LogAllEntries: 1 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[Jul 27 20:08:09.936] [ message] [VGAuthService] Group 'service'
+[Jul 27 20:08:09.936] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[Jul 27 20:08:09.936] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[Jul 27 20:08:09.936] [ message] [VGAuthService] Cannot load message catalog for domain 'VGAuthService', language 'C', catalog dir '.'.
+[Jul 27 20:08:09.936] [ message] [VGAuthService] INIT SERVICE
+[Jul 27 20:08:09.936] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[Jul 27 20:08:09.965] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[Jul 27 20:08:10.011] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[Jul 27 20:08:10.011] [ message] [VGAuthService] SAML_Init: Using xmlsec1 for XML signature support
+[Jul 27 20:08:10.011] [ message] [VGAuthService] ServiceNetworkListen: Created socket directory '/var/run/vmware'
+[Jul 27 20:08:10.011] [ message] [VGAuthService] BEGIN SERVICE
+[Oct 29 17:03:31.978] [ message] [VGAuthService] VGAuthService 'build-5055683' logging at level 'normal'
+[Oct 29 17:03:31.979] [ message] [VGAuthService] Pref_LogAllEntries: 1 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[Oct 29 17:03:31.979] [ message] [VGAuthService] Group 'service'
+[Oct 29 17:03:31.979] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[Oct 29 17:03:31.979] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[Oct 29 17:03:31.979] [ message] [VGAuthService] Cannot load message catalog for domain 'VGAuthService', language 'C', catalog dir '.'.
+[Oct 29 17:03:31.979] [ message] [VGAuthService] INIT SERVICE
+[Oct 29 17:03:31.979] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[Oct 29 17:03:32.024] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[Oct 29 17:03:32.066] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[Oct 29 17:03:32.066] [ message] [VGAuthService] SAML_Init: Using xmlsec1 for XML signature support
+[Oct 29 17:03:32.066] [ message] [VGAuthService] ServiceNetworkListen: Created socket directory '/var/run/vmware'
+[Oct 29 17:03:32.066] [ message] [VGAuthService] BEGIN SERVICE

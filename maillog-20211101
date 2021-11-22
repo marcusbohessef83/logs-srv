@@ -1,0 +1,7 @@
+Oct 29 17:03:44 openshiftrunner1 postfix/postfix-script[1430]: starting the Postfix mail system
+Oct 29 17:03:45 openshiftrunner1 postfix/master[1434]: daemon started -- version 2.10.1, configuration /etc/postfix
+Oct 29 17:03:53 openshiftrunner1 postfix/pickup[1435]: DD7232C9392: uid=0 from=<user@localhost>
+Oct 29 17:03:53 openshiftrunner1 postfix/cleanup[1928]: DD7232C9392: message-id=<617c53a9.vv1cO2y7iidLNkCJ%user@localhost>
+Oct 29 17:03:53 openshiftrunner1 postfix/qmgr[1436]: DD7232C9392: from=<user@localhost.localdomain>, size=1107293, nrcpt=1 (queue active)
+Oct 29 17:03:54 openshiftrunner1 postfix/local[1938]: DD7232C9392: to=<root@localhost.localdomain>, orig_to=<root@localhost>, relay=local, delay=0.27, delays=0.16/0.1/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Oct 29 17:03:54 openshiftrunner1 postfix/qmgr[1436]: DD7232C9392: removed

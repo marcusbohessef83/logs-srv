@@ -1,0 +1,433 @@
+Nov 21 03:22:01 openshiftrunner1 run-parts(/etc/cron.daily)[13867]: finished logrotate
+Nov 21 03:22:01 openshiftrunner1 run-parts(/etc/cron.daily)[13855]: starting man-db.cron
+Nov 21 03:22:02 openshiftrunner1 run-parts(/etc/cron.daily)[13878]: finished man-db.cron
+Nov 21 03:22:02 openshiftrunner1 run-parts(/etc/cron.daily)[13855]: starting mlocate
+Nov 21 03:22:02 openshiftrunner1 run-parts(/etc/cron.daily)[13889]: finished mlocate
+Nov 21 03:22:02 openshiftrunner1 anacron[13376]: Job `cron.daily' terminated
+Nov 21 03:30:02 openshiftrunner1 CROND[14069]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 03:40:01 openshiftrunner1 CROND[14292]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 03:42:01 openshiftrunner1 anacron[13376]: Job `cron.weekly' started
+Nov 21 03:42:01 openshiftrunner1 anacron[13376]: Job `cron.weekly' terminated
+Nov 21 03:42:01 openshiftrunner1 anacron[13376]: Normal exit (2 jobs run)
+Nov 21 03:50:01 openshiftrunner1 CROND[14534]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 04:00:01 openshiftrunner1 CROND[14771]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 04:01:01 openshiftrunner1 CROND[14799]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 04:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[14799]: starting 0anacron
+Nov 21 04:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[14810]: finished 0anacron
+Nov 21 04:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[14799]: starting mcelog.cron
+Nov 21 04:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[14816]: finished mcelog.cron
+Nov 21 04:10:01 openshiftrunner1 CROND[15036]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 04:20:01 openshiftrunner1 CROND[15265]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 04:30:02 openshiftrunner1 CROND[15490]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 04:40:01 openshiftrunner1 CROND[15725]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 04:50:01 openshiftrunner1 CROND[15952]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 05:00:01 openshiftrunner1 CROND[16180]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 05:01:01 openshiftrunner1 CROND[16207]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 05:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[16207]: starting 0anacron
+Nov 21 05:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[16219]: finished 0anacron
+Nov 21 05:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[16207]: starting mcelog.cron
+Nov 21 05:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[16225]: finished mcelog.cron
+Nov 21 05:10:01 openshiftrunner1 CROND[16435]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 05:20:01 openshiftrunner1 CROND[16674]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 05:30:02 openshiftrunner1 CROND[16921]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 05:40:01 openshiftrunner1 CROND[17138]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 05:50:01 openshiftrunner1 CROND[17365]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 06:00:01 openshiftrunner1 CROND[17586]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 06:01:01 openshiftrunner1 CROND[17613]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 06:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[17613]: starting 0anacron
+Nov 21 06:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[17625]: finished 0anacron
+Nov 21 06:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[17613]: starting mcelog.cron
+Nov 21 06:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[17631]: finished mcelog.cron
+Nov 21 06:10:01 openshiftrunner1 CROND[17844]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 06:20:01 openshiftrunner1 CROND[18074]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 06:30:01 openshiftrunner1 CROND[18320]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 06:40:01 openshiftrunner1 CROND[18549]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 06:50:01 openshiftrunner1 CROND[18784]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 07:00:01 openshiftrunner1 CROND[19022]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 07:01:01 openshiftrunner1 CROND[19052]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 07:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[19052]: starting 0anacron
+Nov 21 07:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[19064]: finished 0anacron
+Nov 21 07:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[19052]: starting mcelog.cron
+Nov 21 07:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[19070]: finished mcelog.cron
+Nov 21 07:10:01 openshiftrunner1 CROND[19290]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 07:20:01 openshiftrunner1 CROND[19514]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 07:30:01 openshiftrunner1 CROND[19739]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 07:40:02 openshiftrunner1 CROND[19980]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 07:50:01 openshiftrunner1 CROND[20208]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 08:00:01 openshiftrunner1 CROND[20444]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 08:01:01 openshiftrunner1 CROND[20473]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 08:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[20473]: starting 0anacron
+Nov 21 08:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[20484]: finished 0anacron
+Nov 21 08:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[20473]: starting mcelog.cron
+Nov 21 08:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[20490]: finished mcelog.cron
+Nov 21 08:10:01 openshiftrunner1 CROND[20701]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 08:20:01 openshiftrunner1 CROND[20931]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 08:30:01 openshiftrunner1 CROND[21174]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 08:40:02 openshiftrunner1 CROND[25186]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 08:50:01 openshiftrunner1 CROND[27080]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 09:00:01 openshiftrunner1 CROND[27721]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 09:01:01 openshiftrunner1 CROND[27752]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 09:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[27752]: starting 0anacron
+Nov 21 09:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[27764]: finished 0anacron
+Nov 21 09:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[27752]: starting mcelog.cron
+Nov 21 09:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[27770]: finished mcelog.cron
+Nov 21 09:10:01 openshiftrunner1 CROND[27985]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 09:20:01 openshiftrunner1 CROND[28221]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 09:30:01 openshiftrunner1 CROND[28440]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 09:40:01 openshiftrunner1 CROND[28664]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 09:50:01 openshiftrunner1 CROND[28909]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 10:00:01 openshiftrunner1 CROND[29126]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 10:01:01 openshiftrunner1 CROND[29167]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 10:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[29167]: starting 0anacron
+Nov 21 10:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[29179]: finished 0anacron
+Nov 21 10:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[29167]: starting mcelog.cron
+Nov 21 10:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[29185]: finished mcelog.cron
+Nov 21 10:10:01 openshiftrunner1 CROND[29397]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 10:20:01 openshiftrunner1 CROND[29624]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 10:30:01 openshiftrunner1 CROND[29858]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 10:40:02 openshiftrunner1 CROND[30099]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 10:50:01 openshiftrunner1 CROND[30318]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 11:00:01 openshiftrunner1 CROND[30558]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 11:01:01 openshiftrunner1 CROND[30591]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 11:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[30591]: starting 0anacron
+Nov 21 11:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[30603]: finished 0anacron
+Nov 21 11:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[30591]: starting mcelog.cron
+Nov 21 11:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[30609]: finished mcelog.cron
+Nov 21 11:10:01 openshiftrunner1 CROND[31987]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 11:20:01 openshiftrunner1 CROND[32225]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 11:30:01 openshiftrunner1 CROND[32456]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 11:40:01 openshiftrunner1 CROND[32693]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 11:50:01 openshiftrunner1 CROND[461]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 12:00:01 openshiftrunner1 CROND[734]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 12:01:01 openshiftrunner1 CROND[792]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 12:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[792]: starting 0anacron
+Nov 21 12:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[803]: finished 0anacron
+Nov 21 12:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[792]: starting mcelog.cron
+Nov 21 12:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[810]: finished mcelog.cron
+Nov 21 12:10:01 openshiftrunner1 CROND[1032]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 12:20:01 openshiftrunner1 CROND[3427]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 12:30:01 openshiftrunner1 CROND[4066]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 12:40:02 openshiftrunner1 CROND[4312]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 12:50:01 openshiftrunner1 CROND[4556]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 13:00:01 openshiftrunner1 CROND[4778]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 13:01:01 openshiftrunner1 CROND[4812]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 13:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[4812]: starting 0anacron
+Nov 21 13:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[4823]: finished 0anacron
+Nov 21 13:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[4812]: starting mcelog.cron
+Nov 21 13:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[4829]: finished mcelog.cron
+Nov 21 13:10:01 openshiftrunner1 CROND[6499]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 13:20:01 openshiftrunner1 CROND[7183]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 13:30:01 openshiftrunner1 CROND[7415]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 13:40:02 openshiftrunner1 CROND[7658]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 13:50:01 openshiftrunner1 CROND[7896]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 14:00:01 openshiftrunner1 CROND[8131]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 14:01:01 openshiftrunner1 CROND[8168]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 14:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[8168]: starting 0anacron
+Nov 21 14:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[8180]: finished 0anacron
+Nov 21 14:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[8168]: starting mcelog.cron
+Nov 21 14:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[8186]: finished mcelog.cron
+Nov 21 14:10:01 openshiftrunner1 CROND[8389]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 14:20:01 openshiftrunner1 CROND[8627]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 14:30:01 openshiftrunner1 CROND[8860]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 14:40:02 openshiftrunner1 CROND[9093]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 14:50:01 openshiftrunner1 CROND[9331]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 15:00:01 openshiftrunner1 CROND[9565]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 15:01:01 openshiftrunner1 CROND[9595]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 15:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[9595]: starting 0anacron
+Nov 21 15:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[9606]: finished 0anacron
+Nov 21 15:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[9595]: starting mcelog.cron
+Nov 21 15:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[9612]: finished mcelog.cron
+Nov 21 15:10:01 openshiftrunner1 CROND[9832]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 15:20:01 openshiftrunner1 CROND[10061]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 15:30:01 openshiftrunner1 CROND[10301]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 15:40:01 openshiftrunner1 CROND[10531]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 15:50:02 openshiftrunner1 CROND[10771]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 16:00:01 openshiftrunner1 CROND[11013]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 16:01:01 openshiftrunner1 CROND[11043]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 16:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[11043]: starting 0anacron
+Nov 21 16:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[11054]: finished 0anacron
+Nov 21 16:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[11043]: starting mcelog.cron
+Nov 21 16:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[11060]: finished mcelog.cron
+Nov 21 16:10:01 openshiftrunner1 CROND[11271]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 16:20:01 openshiftrunner1 CROND[11506]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 16:30:01 openshiftrunner1 CROND[11742]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 16:40:01 openshiftrunner1 CROND[11979]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 16:50:02 openshiftrunner1 CROND[12220]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 17:00:01 openshiftrunner1 CROND[12455]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 17:01:01 openshiftrunner1 CROND[12485]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 17:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[12485]: starting 0anacron
+Nov 21 17:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[12495]: finished 0anacron
+Nov 21 17:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[12485]: starting mcelog.cron
+Nov 21 17:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[12502]: finished mcelog.cron
+Nov 21 17:10:01 openshiftrunner1 CROND[12723]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 17:20:01 openshiftrunner1 CROND[12943]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 17:30:01 openshiftrunner1 CROND[13187]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 17:40:01 openshiftrunner1 CROND[13422]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 17:50:02 openshiftrunner1 CROND[13658]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 18:00:01 openshiftrunner1 CROND[13896]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 18:01:01 openshiftrunner1 CROND[13932]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 18:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[13932]: starting 0anacron
+Nov 21 18:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[13944]: finished 0anacron
+Nov 21 18:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[13932]: starting mcelog.cron
+Nov 21 18:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[13950]: finished mcelog.cron
+Nov 21 18:10:01 openshiftrunner1 CROND[14146]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 18:20:01 openshiftrunner1 CROND[14373]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 18:30:01 openshiftrunner1 CROND[14610]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 18:40:01 openshiftrunner1 CROND[14846]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 18:50:01 openshiftrunner1 CROND[15086]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 19:00:02 openshiftrunner1 CROND[15315]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 19:01:01 openshiftrunner1 CROND[15355]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 19:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[15355]: starting 0anacron
+Nov 21 19:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[15366]: finished 0anacron
+Nov 21 19:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[15355]: starting mcelog.cron
+Nov 21 19:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[15372]: finished mcelog.cron
+Nov 21 19:10:01 openshiftrunner1 CROND[15577]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 19:20:01 openshiftrunner1 CROND[15814]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 19:30:01 openshiftrunner1 CROND[16048]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 19:40:01 openshiftrunner1 CROND[16282]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 19:50:01 openshiftrunner1 CROND[16531]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 20:00:02 openshiftrunner1 CROND[16762]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 20:01:01 openshiftrunner1 CROND[16789]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 20:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[16789]: starting 0anacron
+Nov 21 20:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[16800]: finished 0anacron
+Nov 21 20:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[16789]: starting mcelog.cron
+Nov 21 20:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[16807]: finished mcelog.cron
+Nov 21 20:10:01 openshiftrunner1 CROND[17023]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 20:20:01 openshiftrunner1 CROND[17251]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 20:30:01 openshiftrunner1 CROND[17491]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 20:40:01 openshiftrunner1 CROND[17730]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 20:50:01 openshiftrunner1 CROND[17973]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 21:00:01 openshiftrunner1 CROND[18203]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 21:01:01 openshiftrunner1 CROND[18234]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 21:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[18234]: starting 0anacron
+Nov 21 21:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[18246]: finished 0anacron
+Nov 21 21:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[18234]: starting mcelog.cron
+Nov 21 21:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[18252]: finished mcelog.cron
+Nov 21 21:10:01 openshiftrunner1 CROND[18465]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 21:20:01 openshiftrunner1 CROND[18701]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 21:30:01 openshiftrunner1 CROND[18932]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 21:40:01 openshiftrunner1 CROND[19160]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 21:50:01 openshiftrunner1 CROND[19393]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 22:00:01 openshiftrunner1 CROND[19623]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 22:01:01 openshiftrunner1 CROND[19655]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 22:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[19655]: starting 0anacron
+Nov 21 22:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[19666]: finished 0anacron
+Nov 21 22:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[19655]: starting mcelog.cron
+Nov 21 22:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[19672]: finished mcelog.cron
+Nov 21 22:10:01 openshiftrunner1 CROND[19899]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 22:20:01 openshiftrunner1 CROND[20131]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 22:30:01 openshiftrunner1 CROND[20359]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 22:40:01 openshiftrunner1 CROND[20588]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 22:50:01 openshiftrunner1 CROND[20809]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 23:00:01 openshiftrunner1 CROND[21057]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 23:01:02 openshiftrunner1 CROND[21090]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 21 23:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[21090]: starting 0anacron
+Nov 21 23:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[21101]: finished 0anacron
+Nov 21 23:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[21090]: starting mcelog.cron
+Nov 21 23:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[21108]: finished mcelog.cron
+Nov 21 23:10:01 openshiftrunner1 CROND[21313]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 23:20:01 openshiftrunner1 CROND[21540]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 23:30:01 openshiftrunner1 CROND[21785]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 23:40:01 openshiftrunner1 CROND[22019]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 23:50:01 openshiftrunner1 CROND[22248]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 21 23:53:01 openshiftrunner1 CROND[22362]: (root) CMD (/usr/lib64/sa/sa2 -A)
+Nov 22 00:00:01 openshiftrunner1 CROND[22505]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 00:01:01 openshiftrunner1 CROND[22540]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 00:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[22540]: starting 0anacron
+Nov 22 00:01:01 openshiftrunner1 anacron[22553]: Anacron started on 2021-11-22
+Nov 22 00:01:01 openshiftrunner1 anacron[22553]: Normal exit (0 jobs run)
+Nov 22 00:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[22555]: finished 0anacron
+Nov 22 00:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[22540]: starting mcelog.cron
+Nov 22 00:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[22561]: finished mcelog.cron
+Nov 22 00:10:01 openshiftrunner1 CROND[22784]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 00:20:01 openshiftrunner1 CROND[23023]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 00:30:01 openshiftrunner1 CROND[23260]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 00:40:01 openshiftrunner1 CROND[23488]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 00:50:02 openshiftrunner1 CROND[23717]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 01:00:01 openshiftrunner1 CROND[23946]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 01:01:01 openshiftrunner1 CROND[23988]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 01:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[23988]: starting 0anacron
+Nov 22 01:01:01 openshiftrunner1 anacron[24001]: Anacron started on 2021-11-22
+Nov 22 01:01:01 openshiftrunner1 anacron[24001]: Normal exit (0 jobs run)
+Nov 22 01:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[24003]: finished 0anacron
+Nov 22 01:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[23988]: starting mcelog.cron
+Nov 22 01:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[24009]: finished mcelog.cron
+Nov 22 01:10:01 openshiftrunner1 CROND[24219]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 01:20:01 openshiftrunner1 CROND[24462]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 01:30:01 openshiftrunner1 CROND[24695]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 01:40:01 openshiftrunner1 CROND[24924]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 01:50:02 openshiftrunner1 CROND[25157]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 02:00:01 openshiftrunner1 CROND[25393]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 02:01:01 openshiftrunner1 CROND[25432]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 02:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[25432]: starting 0anacron
+Nov 22 02:01:01 openshiftrunner1 anacron[25445]: Anacron started on 2021-11-22
+Nov 22 02:01:01 openshiftrunner1 anacron[25445]: Normal exit (0 jobs run)
+Nov 22 02:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[25447]: finished 0anacron
+Nov 22 02:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[25432]: starting mcelog.cron
+Nov 22 02:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[25453]: finished mcelog.cron
+Nov 22 02:10:01 openshiftrunner1 CROND[25671]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 02:20:01 openshiftrunner1 CROND[25906]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 02:30:01 openshiftrunner1 CROND[26134]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 02:40:01 openshiftrunner1 CROND[26378]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 02:50:02 openshiftrunner1 CROND[26606]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 03:00:01 openshiftrunner1 CROND[26827]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 03:01:01 openshiftrunner1 CROND[26864]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 03:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[26864]: starting 0anacron
+Nov 22 03:01:01 openshiftrunner1 anacron[26876]: Anacron started on 2021-11-22
+Nov 22 03:01:01 openshiftrunner1 anacron[26876]: Will run job `cron.daily' in 19 min.
+Nov 22 03:01:01 openshiftrunner1 anacron[26876]: Jobs will be executed sequentially
+Nov 22 03:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[26878]: finished 0anacron
+Nov 22 03:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[26864]: starting mcelog.cron
+Nov 22 03:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[26884]: finished mcelog.cron
+Nov 22 03:10:01 openshiftrunner1 CROND[27083]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 03:20:01 openshiftrunner1 anacron[26876]: Job `cron.daily' started
+Nov 22 03:20:01 openshiftrunner1 run-parts(/etc/cron.daily)[27304]: starting logrotate
+Nov 22 03:20:01 openshiftrunner1 run-parts(/etc/cron.daily)[27312]: finished logrotate
+Nov 22 03:20:01 openshiftrunner1 run-parts(/etc/cron.daily)[27304]: starting man-db.cron
+Nov 22 03:20:01 openshiftrunner1 CROND[27323]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 03:20:01 openshiftrunner1 run-parts(/etc/cron.daily)[27337]: finished man-db.cron
+Nov 22 03:20:01 openshiftrunner1 run-parts(/etc/cron.daily)[27304]: starting mlocate
+Nov 22 03:20:01 openshiftrunner1 run-parts(/etc/cron.daily)[27348]: finished mlocate
+Nov 22 03:20:01 openshiftrunner1 anacron[26876]: Job `cron.daily' terminated
+Nov 22 03:20:01 openshiftrunner1 anacron[26876]: Normal exit (1 job run)
+Nov 22 03:30:01 openshiftrunner1 CROND[27566]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 03:40:01 openshiftrunner1 CROND[27798]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 03:50:01 openshiftrunner1 CROND[28035]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 04:00:01 openshiftrunner1 CROND[28269]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 04:01:01 openshiftrunner1 CROND[28302]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 04:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[28302]: starting 0anacron
+Nov 22 04:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[28313]: finished 0anacron
+Nov 22 04:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[28302]: starting mcelog.cron
+Nov 22 04:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[28319]: finished mcelog.cron
+Nov 22 04:10:01 openshiftrunner1 CROND[28546]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 04:20:01 openshiftrunner1 CROND[28784]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 04:30:01 openshiftrunner1 CROND[29011]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 04:40:01 openshiftrunner1 CROND[29239]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 04:50:01 openshiftrunner1 CROND[29476]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 05:00:02 openshiftrunner1 CROND[29704]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 05:01:01 openshiftrunner1 CROND[29739]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 05:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[29739]: starting 0anacron
+Nov 22 05:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[29751]: finished 0anacron
+Nov 22 05:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[29739]: starting mcelog.cron
+Nov 22 05:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[29757]: finished mcelog.cron
+Nov 22 05:10:01 openshiftrunner1 CROND[29966]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 05:20:01 openshiftrunner1 CROND[30218]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 05:30:01 openshiftrunner1 CROND[30447]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 05:40:01 openshiftrunner1 CROND[30685]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 05:50:01 openshiftrunner1 CROND[30913]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 06:00:02 openshiftrunner1 CROND[31147]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 06:01:01 openshiftrunner1 CROND[31181]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 06:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[31181]: starting 0anacron
+Nov 22 06:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[31193]: finished 0anacron
+Nov 22 06:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[31181]: starting mcelog.cron
+Nov 22 06:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[31199]: finished mcelog.cron
+Nov 22 06:10:01 openshiftrunner1 CROND[31414]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 06:20:01 openshiftrunner1 CROND[31643]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 06:30:01 openshiftrunner1 CROND[31876]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 06:40:01 openshiftrunner1 CROND[32110]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 06:50:01 openshiftrunner1 CROND[32336]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 07:00:01 openshiftrunner1 CROND[32574]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 07:01:02 openshiftrunner1 CROND[32610]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 07:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[32610]: starting 0anacron
+Nov 22 07:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[32622]: finished 0anacron
+Nov 22 07:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[32610]: starting mcelog.cron
+Nov 22 07:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[32629]: finished mcelog.cron
+Nov 22 07:10:01 openshiftrunner1 CROND[373]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 07:20:01 openshiftrunner1 CROND[635]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 07:30:01 openshiftrunner1 CROND[918]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 07:40:01 openshiftrunner1 CROND[1167]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 07:50:01 openshiftrunner1 CROND[1446]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 08:00:01 openshiftrunner1 CROND[1716]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 08:01:02 openshiftrunner1 CROND[1758]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 08:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[1758]: starting 0anacron
+Nov 22 08:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[1769]: finished 0anacron
+Nov 22 08:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[1758]: starting mcelog.cron
+Nov 22 08:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[1776]: finished mcelog.cron
+Nov 22 08:10:01 openshiftrunner1 CROND[1996]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 08:20:01 openshiftrunner1 CROND[2273]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 08:30:01 openshiftrunner1 CROND[2512]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 08:40:01 openshiftrunner1 CROND[2741]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 08:50:01 openshiftrunner1 CROND[2977]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 09:00:01 openshiftrunner1 CROND[3211]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 09:01:01 openshiftrunner1 CROND[3247]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 09:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[3247]: starting 0anacron
+Nov 22 09:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[3259]: finished 0anacron
+Nov 22 09:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[3247]: starting mcelog.cron
+Nov 22 09:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[3265]: finished mcelog.cron
+Nov 22 09:10:01 openshiftrunner1 CROND[3477]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 09:20:01 openshiftrunner1 CROND[3716]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 09:30:01 openshiftrunner1 CROND[3935]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 09:40:01 openshiftrunner1 CROND[4980]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 09:50:01 openshiftrunner1 CROND[5579]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 10:00:01 openshiftrunner1 CROND[6903]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 10:01:01 openshiftrunner1 CROND[6933]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 10:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[6933]: starting 0anacron
+Nov 22 10:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[6944]: finished 0anacron
+Nov 22 10:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[6933]: starting mcelog.cron
+Nov 22 10:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[6950]: finished mcelog.cron
+Nov 22 10:10:01 openshiftrunner1 CROND[7171]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 10:20:01 openshiftrunner1 CROND[7389]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 10:30:01 openshiftrunner1 CROND[7616]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 10:40:01 openshiftrunner1 CROND[7847]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 10:50:01 openshiftrunner1 CROND[8085]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 11:00:01 openshiftrunner1 CROND[8317]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 11:01:01 openshiftrunner1 CROND[8346]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 11:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[8346]: starting 0anacron
+Nov 22 11:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[8358]: finished 0anacron
+Nov 22 11:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[8346]: starting mcelog.cron
+Nov 22 11:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[8364]: finished mcelog.cron
+Nov 22 11:10:02 openshiftrunner1 CROND[8567]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 11:20:01 openshiftrunner1 CROND[8796]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 11:30:01 openshiftrunner1 CROND[9021]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 11:40:01 openshiftrunner1 CROND[9258]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 11:50:01 openshiftrunner1 CROND[9488]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 12:00:01 openshiftrunner1 CROND[9716]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 12:01:01 openshiftrunner1 CROND[9753]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 12:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[9753]: starting 0anacron
+Nov 22 12:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[9764]: finished 0anacron
+Nov 22 12:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[9753]: starting mcelog.cron
+Nov 22 12:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[9770]: finished mcelog.cron
+Nov 22 12:10:02 openshiftrunner1 CROND[9973]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 12:20:01 openshiftrunner1 CROND[10208]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 12:30:01 openshiftrunner1 CROND[10452]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 12:40:01 openshiftrunner1 CROND[11892]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 12:50:01 openshiftrunner1 CROND[12126]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 13:00:01 openshiftrunner1 CROND[12334]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 13:01:01 openshiftrunner1 CROND[12371]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 13:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[12371]: starting 0anacron
+Nov 22 13:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[12382]: finished 0anacron
+Nov 22 13:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[12371]: starting mcelog.cron
+Nov 22 13:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[12388]: finished mcelog.cron
+Nov 22 13:10:01 openshiftrunner1 CROND[12601]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 13:20:01 openshiftrunner1 CROND[12826]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 13:30:01 openshiftrunner1 CROND[13772]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 13:40:01 openshiftrunner1 CROND[14016]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 13:50:01 openshiftrunner1 CROND[14243]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 14:00:01 openshiftrunner1 CROND[14479]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 14:01:01 openshiftrunner1 CROND[14508]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 14:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[14508]: starting 0anacron
+Nov 22 14:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[14520]: finished 0anacron
+Nov 22 14:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[14508]: starting mcelog.cron
+Nov 22 14:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[14526]: finished mcelog.cron
+Nov 22 14:10:02 openshiftrunner1 CROND[14730]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 14:20:01 openshiftrunner1 CROND[14954]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 14:30:01 openshiftrunner1 CROND[15188]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 14:40:01 openshiftrunner1 CROND[15426]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 14:50:01 openshiftrunner1 CROND[15647]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 15:00:01 openshiftrunner1 CROND[15869]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 15:01:01 openshiftrunner1 CROND[15910]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 15:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[15910]: starting 0anacron
+Nov 22 15:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[15921]: finished 0anacron
+Nov 22 15:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[15910]: starting mcelog.cron
+Nov 22 15:01:01 openshiftrunner1 run-parts(/etc/cron.hourly)[15927]: finished mcelog.cron
+Nov 22 15:10:02 openshiftrunner1 CROND[16131]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 15:20:01 openshiftrunner1 CROND[16366]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 15:30:01 openshiftrunner1 CROND[16664]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 15:40:01 openshiftrunner1 CROND[16919]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 15:50:01 openshiftrunner1 CROND[17230]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 16:00:01 openshiftrunner1 CROND[17484]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+Nov 22 16:01:01 openshiftrunner1 CROND[17520]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 22 16:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[17520]: starting 0anacron
+Nov 22 16:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[17532]: finished 0anacron
+Nov 22 16:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[17520]: starting mcelog.cron
+Nov 22 16:01:02 openshiftrunner1 run-parts(/etc/cron.hourly)[17538]: finished mcelog.cron

@@ -1,0 +1,40 @@
+2020-07-04 23:25:17,791 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-07-04 23:25:17,791 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-07-04 23:25:17,792 INFO     tuned.daemon.daemon: no profile preset, checking what is recommended for your configuration
+2020-07-04 23:25:18,610 INFO     tuned.daemon.daemon: using 'virtual-guest' profile and setting it as active
+2020-07-04 23:25:18,612 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-07-04 23:25:18,631 INFO     tuned.daemon.controller: starting controller
+2020-07-04 23:25:18,631 INFO     tuned.daemon.daemon: starting tuning
+2020-07-04 23:25:18,653 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu1
+2020-07-04 23:25:18,679 INFO     tuned.plugins.base: instance disk: assigning devices dm-2, sda, dm-0, dm-1
+2020-07-04 23:25:18,686 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'performance' on cpu 'cpu0'
+2020-07-04 23:25:18,690 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'performance' on cpu 'cpu1'
+2020-07-04 23:25:18,742 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-07-04 23:25:18,758 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2020-07-27 20:07:49,891 INFO     tuned.daemon.controller: terminating controller
+2020-07-27 20:07:49,892 INFO     tuned.daemon.daemon: stopping tunning
+2020-07-27 20:07:50,421 INFO     tuned.daemon.daemon: terminating Tuned due to system shutdown / reboot
+2020-07-27 20:07:50,515 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'performance' on cpu 'cpu0'
+2020-07-27 20:07:50,526 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'performance' on cpu 'cpu1'
+2020-07-27 20:08:20,823 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2020-07-27 20:08:20,834 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2020-07-27 20:08:20,839 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2020-07-27 20:08:20,870 INFO     tuned.daemon.controller: starting controller
+2020-07-27 20:08:20,870 INFO     tuned.daemon.daemon: starting tuning
+2020-07-27 20:08:20,906 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu1
+2020-07-27 20:08:20,931 INFO     tuned.plugins.base: instance disk: assigning devices dm-2, sda, dm-0, dm-1
+2020-07-27 20:08:20,940 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'performance' on cpu 'cpu0'
+2020-07-27 20:08:20,957 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'performance' on cpu 'cpu1'
+2020-07-27 20:08:21,111 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2020-07-27 20:08:21,131 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied
+2021-10-29 17:03:44,350 INFO     tuned.daemon.application: dynamic tuning is globally disabled
+2021-10-29 17:03:44,360 INFO     tuned.daemon.daemon: using sleep interval of 1 second(s)
+2021-10-29 17:03:44,375 INFO     tuned.profiles.loader: loading profile: virtual-guest
+2021-10-29 17:03:44,422 INFO     tuned.daemon.controller: starting controller
+2021-10-29 17:03:44,427 INFO     tuned.daemon.daemon: starting tuning
+2021-10-29 17:03:44,465 INFO     tuned.plugins.base: instance cpu: assigning devices cpu0, cpu1
+2021-10-29 17:03:44,497 INFO     tuned.plugins.base: instance disk: assigning devices dm-2, sda, dm-0, dm-1
+2021-10-29 17:03:44,508 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'performance' on cpu 'cpu0'
+2021-10-29 17:03:44,522 INFO     tuned.plugins.plugin_cpu: setting energy_perf_bias 'performance' on cpu 'cpu1'
+2021-10-29 17:03:44,794 INFO     tuned.plugins.plugin_sysctl: reapplying system sysctl
+2021-10-29 17:03:44,800 INFO     tuned.daemon.daemon: static tuning from profile 'virtual-guest' applied

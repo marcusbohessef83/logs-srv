@@ -1,0 +1,331 @@
+[    22.010] 
+X.Org X Server 1.19.3
+Release Date: 2017-03-15
+[    22.010] X Protocol Version 11, Revision 0
+[    22.010] Build Operating System:  3.10.0-514.16.1.el7.x86_64 
+[    22.010] Current Operating System: Linux openshiftrunner1 3.10.0-693.el7.x86_64 #1 SMP Tue Aug 22 21:09:27 UTC 2017 x86_64
+[    22.011] Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-693.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=es_CL.UTF-8
+[    22.011] Build Date: 05 August 2017  06:19:43AM
+[    22.011] Build ID: xorg-x11-server 1.19.3-11.el7 
+[    22.011] Current version of pixman: 0.34.0
+[    22.011] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    22.011] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    22.011] (==) Log file: "/var/log/Xorg.0.log", Time: Fri Oct 29 17:03:46 2021
+[    22.012] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    22.012] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    22.068] (==) No Layout section.  Using the first Screen section.
+[    22.068] (==) No screen section available. Using defaults.
+[    22.068] (**) |-->Screen "Default Screen Section" (0)
+[    22.068] (**) |   |-->Monitor "<default monitor>"
+[    22.068] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    22.068] (==) Automatically adding devices
+[    22.068] (==) Automatically enabling devices
+[    22.068] (==) Automatically adding GPU devices
+[    22.068] (==) Automatically binding GPU devices
+[    22.068] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    22.068] (==) FontPath set to:
+	catalogue:/etc/X11/fontpath.d,
+	built-ins
+[    22.068] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[    22.068] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    22.068] (II) Loader magic: 0x55be5a6a2020
+[    22.068] (II) Module ABI versions:
+[    22.068] 	X.Org ANSI C Emulation: 0.4
+[    22.068] 	X.Org Video Driver: 23.0
+[    22.068] 	X.Org XInput driver : 24.1
+[    22.068] 	X.Org Server Extension : 10.0
+[    22.069] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    22.084] (--) PCI:*(0:0:15:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe8000000/134217728, 0xfe000000/8388608, I/O @ 0x00001070/16, BIOS @ 0x????????/32768
+[    22.084] (II) LoadModule: "glx"
+[    22.129] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[    22.312] (II) Module glx: vendor="X.Org Foundation"
+[    22.312] 	compiled for 1.19.3, module version = 1.0.0
+[    22.312] 	ABI class: X.Org Server Extension, version 10.0
+[    22.312] (==) Matched vmware as autoconfigured driver 0
+[    22.312] (==) Matched vmware as autoconfigured driver 1
+[    22.312] (==) Matched modesetting as autoconfigured driver 2
+[    22.312] (==) Matched fbdev as autoconfigured driver 3
+[    22.312] (==) Matched vesa as autoconfigured driver 4
+[    22.312] (==) Assigned the driver to the xf86ConfigLayout
+[    22.312] (II) LoadModule: "vmware"
+[    22.312] (II) Loading /usr/lib64/xorg/modules/drivers/vmware_drv.so
+[    22.568] (II) Module vmware: vendor="X.Org Foundation"
+[    22.568] 	compiled for 1.19.3, module version = 13.2.1
+[    22.568] 	Module class: X.Org Video Driver
+[    22.568] 	ABI class: X.Org Video Driver, version 23.0
+[    22.568] (II) LoadModule: "modesetting"
+[    22.568] (II) Loading /usr/lib64/xorg/modules/drivers/modesetting_drv.so
+[    22.602] (II) Module modesetting: vendor="X.Org Foundation"
+[    22.602] 	compiled for 1.19.3, module version = 1.19.3
+[    22.602] 	Module class: X.Org Video Driver
+[    22.602] 	ABI class: X.Org Video Driver, version 23.0
+[    22.602] (II) LoadModule: "fbdev"
+[    22.602] (II) Loading /usr/lib64/xorg/modules/drivers/fbdev_drv.so
+[    22.615] (II) Module fbdev: vendor="X.Org Foundation"
+[    22.615] 	compiled for 1.19.3, module version = 0.4.3
+[    22.615] 	Module class: X.Org Video Driver
+[    22.615] 	ABI class: X.Org Video Driver, version 23.0
+[    22.615] (II) LoadModule: "vesa"
+[    22.615] (II) Loading /usr/lib64/xorg/modules/drivers/vesa_drv.so
+[    22.630] (II) Module vesa: vendor="X.Org Foundation"
+[    22.630] 	compiled for 1.19.3, module version = 2.3.2
+[    22.630] 	Module class: X.Org Video Driver
+[    22.630] 	ABI class: X.Org Video Driver, version 23.0
+[    22.630] (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+[    22.630] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    22.630] (II) FBDEV: driver for framebuffer: fbdev
+[    22.630] (II) VESA: driver for VESA chipsets: vesa
+[    22.630] (++) using VT number 1
+
+[    22.631] (WW) Falling back to old probe method for modesetting
+[    22.635] (WW) Falling back to old probe method for fbdev
+[    22.635] (II) Loading sub module "fbdevhw"
+[    22.635] (II) LoadModule: "fbdevhw"
+[    22.655] (II) Loading /usr/lib64/xorg/modules/libfbdevhw.so
+[    22.713] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    22.713] 	compiled for 1.19.3, module version = 0.0.2
+[    22.713] 	ABI class: X.Org Video Driver, version 23.0
+[    22.713] (WW) Falling back to old probe method for vesa
+[    22.713] (II) vmware(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    22.715] (--) vmware(0): DRM driver version is 2.12.0
+[    22.715] (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+[    22.715] (==) vmware(0): RGB weight 888
+[    22.715] (==) vmware(0): Default visual is TrueColor
+[    22.715] (--) vmware(0): Min width 1, Max Width 4096.
+[    22.715] (--) vmware(0): Min height 1, Max Height 4096.
+[    22.715] (II) vmware(0): Output Virtual1 has no monitor section
+[    22.715] (II) vmware(0): Output Virtual2 has no monitor section
+[    22.715] (II) vmware(0): Output Virtual3 has no monitor section
+[    22.716] (II) vmware(0): Output Virtual4 has no monitor section
+[    22.716] (II) vmware(0): Output Virtual5 has no monitor section
+[    22.716] (II) vmware(0): Output Virtual6 has no monitor section
+[    22.716] (II) vmware(0): Output Virtual7 has no monitor section
+[    22.716] (II) vmware(0): Output Virtual8 has no monitor section
+[    22.716] (II) vmware(0): Printing probed modes for output Virtual1
+[    22.716] (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz eP)
+[    22.716] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[    22.716] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+[    22.716] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    22.716] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[    22.716] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    22.716] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    22.716] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+[    22.716] (II) vmware(0): EDID for output Virtual2
+[    22.716] (II) vmware(0): EDID for output Virtual3
+[    22.716] (II) vmware(0): EDID for output Virtual4
+[    22.716] (II) vmware(0): EDID for output Virtual5
+[    22.716] (II) vmware(0): EDID for output Virtual6
+[    22.716] (II) vmware(0): EDID for output Virtual7
+[    22.716] (II) vmware(0): EDID for output Virtual8
+[    22.716] (II) vmware(0): Output Virtual1 connected
+[    22.716] (II) vmware(0): Output Virtual2 disconnected
+[    22.716] (II) vmware(0): Output Virtual3 disconnected
+[    22.716] (II) vmware(0): Output Virtual4 disconnected
+[    22.716] (II) vmware(0): Output Virtual5 disconnected
+[    22.716] (II) vmware(0): Output Virtual6 disconnected
+[    22.716] (II) vmware(0): Output Virtual7 disconnected
+[    22.716] (II) vmware(0): Output Virtual8 disconnected
+[    22.716] (II) vmware(0): Using exact sizes for initial modes
+[    22.716] (II) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+[    22.716] (==) vmware(0): DPI set to (96, 96)
+[    22.716] (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+[    22.716] (II) Loading sub module "fb"
+[    22.716] (II) LoadModule: "fb"
+[    22.716] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[    22.735] (II) Module fb: vendor="X.Org Foundation"
+[    22.735] 	compiled for 1.19.3, module version = 1.0.0
+[    22.735] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    22.735] (II) Loading sub module "dri2"
+[    22.735] (II) LoadModule: "dri2"
+[    22.735] (II) Module "dri2" already built-in
+[    22.735] (II) UnloadModule: "modesetting"
+[    22.735] (II) Unloading modesetting
+[    22.735] (II) UnloadModule: "fbdev"
+[    22.735] (II) Unloading fbdev
+[    22.735] (II) UnloadSubModule: "fbdevhw"
+[    22.735] (II) Unloading fbdevhw
+[    22.735] (II) UnloadModule: "vesa"
+[    22.735] (II) Unloading vesa
+[    22.735] (==) Depth 24 pixmap format is 32 bpp
+[    22.736] (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+[    22.738] (WW) vmware(0): Failed to initialize Gallium3D Xa. No render acceleration available.
+[    22.738] (WW) vmware(0): Skipped initialization of direct rendering due to lack of render acceleration.
+[    22.738] (--) vmware(0): Render acceleration is disabled.
+[    22.738] (==) vmware(0): Rendercheck mode is disabled.
+[    22.738] (--) vmware(0): Direct rendering (3D) is disabled.
+[    22.738] (==) vmware(0): Backing store enabled
+[    22.738] (==) vmware(0): Silken mouse enabled
+[    22.738] (II) vmware(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    22.739] (==) vmware(0): DPMS enabled
+[    22.739] (II) vmware(0): No 3D acceleration. Not setting up textured video.
+[    22.739] (--) RandR disabled
+[    22.749] (II) SELinux: Disabled by boolean
+[    22.750] (II) AIGLX: Screen 0 is not DRI2 capable
+[    22.750] (EE) AIGLX: reverting to software rendering
+[    22.845] (II) IGLX: enabled GLX_MESA_copy_sub_buffer
+[    22.846] (II) IGLX: Loaded and initialized swrast
+[    22.846] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    22.862] (II) vmware(0): Setting screen physical size to 211 x 158
+[    23.251] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    23.254] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    23.254] (**) Power Button: Applying InputClass "system-keyboard"
+[    23.254] (II) LoadModule: "evdev"
+[    23.255] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[    23.361] (II) Module evdev: vendor="X.Org Foundation"
+[    23.361] 	compiled for 1.19.3, module version = 2.10.5
+[    23.361] 	Module class: X.Org XInput Driver
+[    23.361] 	ABI class: X.Org XInput driver, version 24.1
+[    23.361] (II) Using input driver 'evdev' for 'Power Button'
+[    23.361] (**) Power Button: always reports core events
+[    23.361] (**) evdev: Power Button: Device: "/dev/input/event0"
+[    23.362] (--) evdev: Power Button: Vendor 0 Product 0x1
+[    23.362] (--) evdev: Power Button: Found keys
+[    23.362] (II) evdev: Power Button: Configuring as keyboard
+[    23.362] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[    23.362] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    23.362] (**) Option "xkb_rules" "evdev"
+[    23.362] (**) Option "xkb_layout" "latam"
+[    23.422] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+[    23.422] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[    23.422] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[    23.422] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    23.422] (**) AT Translated Set 2 keyboard: always reports core events
+[    23.422] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event1"
+[    23.422] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[    23.422] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[    23.422] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    23.422] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input1/event1"
+[    23.422] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 7)
+[    23.422] (**) Option "xkb_rules" "evdev"
+[    23.422] (**) Option "xkb_layout" "latam"
+[    23.424] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+[    23.424] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[    23.424] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[    23.424] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[    23.424] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event2"
+[    23.424] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x12
+[    23.424] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[    23.424] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute axes
+[    23.424] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y absolute axes
+[    23.424] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute touchscreen
+[    23.424] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as touchscreen
+[    23.425] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[    23.425] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    23.425] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[    23.425] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: TOUCHSCREEN, id 8)
+[    23.425] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for absolute axes.
+[    23.425] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[    23.425] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[    23.425] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[    23.425] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[    23.425] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/js0)
+[    23.426] (II) No input driver specified, ignoring this device.
+[    23.426] (II) This device may have been added with another device file.
+[    23.426] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+[    23.426] (II) No input driver specified, ignoring this device.
+[    23.426] (II) This device may have been added with another device file.
+[    23.426] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event3)
+[    23.427] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[    23.427] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[    23.427] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[    23.427] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event3"
+[    23.427] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x12
+[    23.427] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[    23.427] (--) evdev: VirtualPS/2 VMware VMMouse: Found scroll wheel(s)
+[    23.427] (--) evdev: VirtualPS/2 VMware VMMouse: Found relative axes
+[    23.427] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y relative axes
+[    23.427] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as mouse
+[    23.427] (II) evdev: VirtualPS/2 VMware VMMouse: Adding scrollwheel support
+[    23.427] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[    23.427] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    23.427] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event3"
+[    23.427] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 9)
+[    23.427] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for relative axes.
+[    23.427] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[    23.427] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[    23.427] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[    23.427] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[    23.428] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+[    23.428] (II) No input driver specified, ignoring this device.
+[    23.428] (II) This device may have been added with another device file.
+[    23.428] (II) config/udev: Adding input device PC Speaker (/dev/input/event4)
+[    23.428] (II) No input driver specified, ignoring this device.
+[    23.428] (II) This device may have been added with another device file.
+[    23.645] AUDIT: Fri Oct 29 17:03:48 2021: 1515: client 1 connected from local host ( uid=0 gid=0 pid=1621 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    23.663] AUDIT: Fri Oct 29 17:03:48 2021: 1515: client 1 disconnected
+[    23.680] AUDIT: Fri Oct 29 17:03:48 2021: 1515: client 1 connected from local host ( uid=0 gid=0 pid=1623 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    23.685] AUDIT: Fri Oct 29 17:03:48 2021: 1515: client 1 disconnected
+[    23.691] AUDIT: Fri Oct 29 17:03:48 2021: 1515: client 1 connected from local host ( uid=0 gid=0 pid=1126 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    24.424] AUDIT: Fri Oct 29 17:03:49 2021: 1515: client 2 connected from local host ( uid=42 gid=42 pid=1636 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    25.260] AUDIT: Fri Oct 29 17:03:49 2021: 1515: client 3 connected from local host ( uid=42 gid=42 pid=1640 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    25.283] AUDIT: Fri Oct 29 17:03:49 2021: 1515: client 4 connected from local host ( uid=42 gid=42 pid=1654 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    25.383] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 5 connected from local host ( uid=42 gid=42 pid=1659 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    25.753] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 connected from local host ( uid=42 gid=42 pid=1659 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    25.787] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 disconnected
+[    25.828] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 connected from local host ( uid=42 gid=42 pid=1690 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    25.906] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 disconnected
+[    25.960] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 connected from local host ( uid=42 gid=42 pid=1690 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    26.075] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 disconnected
+[    26.106] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 connected from local host ( uid=42 gid=42 pid=1714 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    26.112] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 7 connected from local host ( uid=42 gid=42 pid=1717 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    26.135] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 disconnected
+[    26.136] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 6 connected from local host ( uid=42 gid=42 pid=1714 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    26.285] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 7 disconnected
+[    26.310] AUDIT: Fri Oct 29 17:03:50 2021: 1515: client 5 disconnected
+[    27.860] AUDIT: Fri Oct 29 17:03:52 2021: 1515: client 5 connected from local host ( uid=42 gid=42 pid=1742 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    27.935] AUDIT: Fri Oct 29 17:03:52 2021: 1515: client 5 disconnected
+[    27.935] AUDIT: Fri Oct 29 17:03:52 2021: 1515: client 5 connected from local host ( uid=42 gid=42 pid=1742 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    28.397] AUDIT: Fri Oct 29 17:03:53 2021: 1515: client 7 connected from local host ( uid=42 gid=42 pid=1742 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    28.409] AUDIT: Fri Oct 29 17:03:53 2021: 1515: client 8 connected from local host ( uid=42 gid=42 pid=1742 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    28.412] AUDIT: Fri Oct 29 17:03:53 2021: 1515: client 8 disconnected
+[    28.576] AUDIT: Fri Oct 29 17:03:53 2021: 1515: client 8 connected from local host ( uid=42 gid=42 pid=1742 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    28.578] AUDIT: Fri Oct 29 17:03:53 2021: 1515: client 8 disconnected
+[    28.740] AUDIT: Fri Oct 29 17:03:53 2021: 1515: client 8 connected from local host ( uid=42 gid=42 pid=1851 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    28.746] AUDIT: Fri Oct 29 17:03:53 2021: 1515: client 8 disconnected
+[    32.958] AUDIT: Fri Oct 29 17:03:57 2021: 1515: client 8 connected from local host ( uid=42 gid=42 pid=2034 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    33.064] AUDIT: Fri Oct 29 17:03:57 2021: 1515: client 9 connected from local host ( uid=42 gid=42 pid=1742 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    33.083] AUDIT: Fri Oct 29 17:03:57 2021: 1515: client 9 disconnected
+[    33.453] AUDIT: Fri Oct 29 17:03:58 2021: 1515: client 9 connected from local host ( uid=42 gid=42 pid=2065 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    33.475] AUDIT: Fri Oct 29 17:03:58 2021: 1515: client 10 connected from local host ( uid=42 gid=42 pid=2065 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    33.479] AUDIT: Fri Oct 29 17:03:58 2021: 1515: client 10 disconnected
+[    33.736] AUDIT: Fri Oct 29 17:03:58 2021: 1515: client 10 connected from local host ( uid=42 gid=42 pid=2065 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    33.737] AUDIT: Fri Oct 29 17:03:58 2021: 1515: client 10 disconnected
+[    34.826] AUDIT: Fri Oct 29 17:03:59 2021: 1515: client 10 connected from local host ( uid=42 gid=42 pid=2065 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    34.829] AUDIT: Fri Oct 29 17:03:59 2021: 1515: client 10 disconnected
+[    35.097] AUDIT: Fri Oct 29 17:03:59 2021: 1515: client 10 connected from local host ( uid=42 gid=42 pid=2034 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    35.129] AUDIT: Fri Oct 29 17:03:59 2021: 1515: client 10 disconnected
+[    35.255] AUDIT: Fri Oct 29 17:03:59 2021: 1515: client 10 connected from local host ( uid=42 gid=42 pid=2065 )
+  Auth name: MIT-MAGIC-COOKIE-1 ID: 643
+[    35.256] AUDIT: Fri Oct 29 17:03:59 2021: 1515: client 10 disconnected

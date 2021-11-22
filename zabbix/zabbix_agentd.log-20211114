@@ -1,0 +1,2 @@
+  5474:20211112:200641.101 active check configuration update from [192.168.130.179:10051] started to fail (cannot connect to [[192.168.130.179]:10051]: [4] Interrupted system call)
+  5474:20211112:200741.117 active check configuration update from [192.168.130.179:10051] is working again

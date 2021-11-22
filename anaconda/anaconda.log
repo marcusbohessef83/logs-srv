@@ -1,0 +1,582 @@
+03:09:24,812 INFO anaconda: /sbin/anaconda 21.48.22.121-1
+03:09:25,485 INFO anaconda: created new libuser.conf at /tmp/libuser._Cd2Sa with instPath="/mnt/sysimage"
+03:09:25,488 INFO anaconda: 8257536 kB (8064 MB) are available
+03:09:25,512 INFO anaconda: check_memory(): total:8064, needed:320, graphical:410
+03:09:25,520 INFO anaconda: anaconda called with cmdline = ['/sbin/anaconda']
+03:09:25,520 INFO anaconda: Default encoding = utf-8 
+03:09:25,561 INFO anaconda: Parsing kickstart: /usr/share/anaconda/interactive-defaults.ks
+03:09:26,294 DEBUG anaconda: setting locale to: en_US.UTF-8
+03:09:26,323 DEBUG anaconda: network: devices found ['ens192']
+03:09:26,332 DEBUG anaconda: network: ensure single initramfs connections
+03:09:26,407 DEBUG anaconda: network: apply kickstart
+03:09:26,408 DEBUG anaconda: network: create missing ifcfg files
+03:09:26,544 DEBUG anaconda: network: ifcfg file for ens192 not found
+03:09:26,675 DEBUG anaconda: network: missing ifcfgs created for devices ['ens192']
+03:09:26,697 DEBUG anaconda: network: set real ONBOOT value
+03:09:26,698 DEBUG anaconda: updating hostname localhost.localdomain
+03:09:26,735 INFO anaconda: Running Thread: AnaWaitForConnectingNMThread (140542612375296)
+03:09:26,747 INFO anaconda: Thread Done: AnaWaitForConnectingNMThread (140542612375296)
+03:09:26,754 WARN anaconda.stdout: Not asking for VNC because we don't have a network
+03:09:26,756 INFO anaconda: Display mode = g
+03:09:26,758 INFO anaconda: 8257536 kB (8064 MB) are available
+03:09:26,771 INFO anaconda: check_memory(): total:8064, needed:320, graphical:410
+03:09:29,439 DEBUG anaconda: X server has signalled a successful start.
+03:09:29,695 INFO anaconda: spice-vdagent exited with status 1
+03:09:31,118 WARN anaconda: /usr/lib/python2.7/site-packages/meh/ui/gui.py:23: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+
+03:09:31,285 INFO anaconda: CentOS Linux is the highest priority installclass, using it
+03:09:33,880 INFO anaconda: boot loader GRUB2 on X86 platform
+03:09:34,017 DEBUG anaconda: LABEL=OEMDRV matches [] for devicetree=None and disks_only=True
+03:09:34,021 INFO anaconda: Running Thread: AnaStorageThread (140542370076416)
+03:09:34,053 INFO anaconda: Running Thread: AnaTimeInitThread (140542361683712)
+03:09:34,062 INFO anaconda: Running Thread: AnaPayloadRestartThread (140542353291008)
+03:09:34,064 INFO anaconda: Geolocation is enabled.
+03:09:34,067 INFO anaconda: Thread Done: AnaPayloadRestartThread (140542353291008)
+03:09:34,067 ERR anaconda: Geolocation refresh failed - no connectivity
+03:09:34,068 INFO anaconda: Running Thread: AnaPayloadThread (140542344898304)
+03:09:35,568 DEBUG anaconda: Detected primary monitor: 800x600 95dpix 95dpiy
+03:09:36,737 INFO anaconda: boot loader GRUB2 on X86 platform
+03:09:37,014 INFO anaconda: Thread Done: AnaStorageThread (140542370076416)
+03:09:37,003 INFO anaconda: Thread Done: AnaTimeInitThread (140542361683712)
+03:09:37,685 DEBUG anaconda: setting locale to: en_US.UTF-8
+03:09:37,688 DEBUG anaconda: setting locale to: en_US.UTF-8
+03:09:37,693 DEBUG anaconda: Entered spoke: WelcomeLanguageSpoke
+03:09:38,062 INFO anaconda: Thread Done: AnaPayloadThread (140542344898304)
+03:10:42,206 DEBUG anaconda: setting locale to: es_ES.UTF-8
+03:10:44,258 DEBUG anaconda: setting locale to: es_CL.UTF-8
+03:10:48,221 DEBUG anaconda: setting locale to: es_CL.UTF-8
+03:10:48,223 INFO anaconda: geolocation not finished in time, using default timezone
+03:10:48,373 DEBUG anaconda: network standalone spoke (init): completed: True
+03:10:48,409 DEBUG anaconda: Left spoke: WelcomeLanguageSpoke
+03:10:48,410 DEBUG anaconda: Entered hub: SummaryHub
+03:10:48,416 INFO anaconda: Adding controller: SummaryHub
+03:10:48,803 INFO anaconda: Running Thread: AnaNTPserver1 (140542361683712)
+03:10:48,805 INFO anaconda: Running Thread: AnaNTPserver2 (140542344898304)
+03:10:48,808 INFO anaconda: Running Thread: AnaNTPserver3 (140542370076416)
+03:10:48,809 INFO anaconda: Running Thread: AnaNTPserver4 (140542353291008)
+03:10:48,810 INFO anaconda: Running Thread: AnaDateTimeThread (140542273275648)
+03:10:48,975 INFO anaconda: Thread Done: AnaNTPserver4 (140542353291008)
+03:10:48,988 INFO anaconda: Thread Done: AnaNTPserver3 (140542370076416)
+03:10:48,989 INFO anaconda: Thread Done: AnaNTPserver1 (140542361683712)
+03:10:48,991 INFO anaconda: Thread Done: AnaNTPserver2 (140542344898304)
+03:10:49,213 INFO anaconda: Running Thread: AnaAddLayoutsInitThread (140542344898304)
+03:10:49,213 DEBUG anaconda: Starting applying <bound method AddLayoutDialog._addLayout of <pyanaconda.ui.gui.spokes.keyboard.AddLayoutDialog object at 0x7fd28e603d50>> on <dictionary-keyiterator object at 0x7fd28e6766d8>
+03:10:49,226 INFO anaconda: Running Thread: AnaGtkBatchPre1 (140542361683712)
+03:10:49,257 INFO anaconda: Thread Done: AnaGtkBatchPre1 (140542361683712)
+03:10:49,329 INFO anaconda: Running Thread: AnaKeyboardThread (140542361683712)
+03:10:49,398 INFO anaconda: Module initialized: LangsupportSpoke
+03:10:50,460 INFO anaconda: Running Thread: AnaSourceWatcher (140542370076416)
+03:10:50,550 INFO anaconda: using environment from kickstart: None
+03:10:50,569 INFO anaconda: Running Thread: AnaSoftwareWatcher (140542353291008)
+03:10:50,629 INFO anaconda: Running Thread: AnaStorageWatcher (140542255998720)
+03:10:50,633 INFO anaconda: Module initialized: StorageSpoke
+03:10:50,635 INFO anaconda: Thread Done: AnaStorageWatcher (140542255998720)
+03:10:50,705 INFO anaconda: Running Thread: AnaCustomStorageInit (140542255998720)
+03:10:50,817 INFO anaconda: Module initialized: FilterSpoke
+03:10:50,904 DEBUG anaconda: Dump missing interfaces in NetworkControlBox initialize method
+03:10:51,157 DEBUG anaconda: network: GUI, device configuration added: connection 0d81daa9-575d-4dfb-ad3f-f011ea0317f5 device ens192
+03:10:51,174 DEBUG anaconda: network: GUI, not adding connection 0d81daa9-575d-4dfb-ad3f-f011ea0317f5, already in list
+03:10:51,257 DEBUG anaconda: updating hostname localhost.localdomain
+03:10:51,268 INFO anaconda: Module initialized: NetworkSpoke
+03:10:51,351 INFO anaconda: Running Thread: OSCAPguiWaitForDataFetchThread (140542247606016)
+03:10:51,353 INFO anaconda: Initialization of all modules (9) has been started.
+23:10:51,000 INFO anaconda: System time set to Sun Jul  5 03:10:51 2020 UTC
+23:10:51,000 INFO anaconda: System time set to Sun Jul  5 03:10:51 2020 UTC
+23:10:51,000 INFO anaconda: System time set to Sun Jul  5 03:10:51 2020 UTC
+23:10:51,001 INFO anaconda: Module initialized: DatetimeSpoke
+23:10:51,001 INFO anaconda: Thread Done: AnaDateTimeThread (140542273275648)
+23:10:51,119 DEBUG anaconda: Environment selected for installation: minimal
+23:10:51,120 DEBUG anaconda: Groups selected for installation: []
+23:10:51,120 INFO anaconda: Running Thread: AnaCheckSoftwareThread (140542273275648)
+23:10:51,121 INFO anaconda: Module initialized: SoftwareSelectionSpoke
+23:10:52,870 INFO anaconda: Thread Done: AnaSoftwareWatcher (140542353291008)
+23:10:52,884 INFO anaconda: spoke is not ready: KeyboardSpoke
+23:10:52,885 INFO anaconda: setting KeyboardSpoke status to: Obteniendo la lista de disposiciones...
+23:10:52,892 INFO anaconda: spoke is not ready: SoftwareSelectionSpoke
+23:10:52,897 INFO anaconda: spoke is not ready: SourceSpoke
+23:10:52,897 INFO anaconda: setting SourceSpoke status to: Configurando la fuente de instalación…
+23:10:52,898 INFO anaconda: setting SourceSpoke status to: Probando el almacenamiento…
+23:10:52,898 INFO anaconda: setting SourceSpoke status to: Descargando los metadatos del paquete…
+23:10:52,903 INFO anaconda: spoke is ready: SoftwareSelectionSpoke
+23:10:52,907 INFO anaconda: spoke is ready: SourceSpoke
+23:10:52,908 INFO anaconda: setting SoftwareSelectionSpoke status to: Descargando los metadatos del paquete…
+23:10:52,908 INFO anaconda: setting SoftwareSelectionSpoke status to: Descargando los metadatos de grupos…
+23:10:52,909 INFO anaconda: setting StorageSpoke status to: Probando el almacenamiento…
+23:10:52,914 INFO anaconda: spoke is ready: StorageSpoke
+23:10:52,915 INFO anaconda: setting OSCAPSpoke status to: Obteniendo datos de contenido
+23:10:52,918 INFO anaconda: spoke is not ready: OSCAPSpoke
+23:10:52,921 INFO anaconda: spoke is ready: DatetimeSpoke
+23:10:52,928 INFO anaconda: spoke is ready: SoftwareSelectionSpoke
+23:10:52,935 INFO anaconda: spoke is not ready: SoftwareSelectionSpoke
+23:10:52,943 INFO anaconda: spoke is not ready: SourceSpoke
+23:10:52,944 INFO anaconda: setting SoftwareSelectionSpoke status to: Verificando las dependencias del software…
+23:10:53,354 DEBUG anaconda: Setting up repos: []
+23:10:53,659 DEBUG anaconda: OSCAP addon: waiting for all Anaconda spokes to be initialized
+23:10:54,698 INFO anaconda: Module initialized: CustomPartitioningSpoke
+23:10:54,699 INFO anaconda: Thread Done: AnaCustomStorageInit (140542255998720)
+23:10:59,364 DEBUG anaconda: Finished applying <bound method AddLayoutDialog._addLayout of <pyanaconda.ui.gui.spokes.keyboard.AddLayoutDialog object at 0x7fd28e603d50>> on <dictionary-keyiterator object at 0x7fd28e6766d8>
+23:10:59,364 INFO anaconda: Thread Done: AnaAddLayoutsInitThread (140542344898304)
+23:10:59,365 INFO anaconda: Module initialized: KeyboardSpoke
+23:10:59,365 INFO anaconda: Thread Done: AnaKeyboardThread (140542361683712)
+23:10:59,376 INFO anaconda: spoke is ready: KeyboardSpoke
+23:11:00,718 INFO anaconda: Thread Done: AnaCheckSoftwareThread (140542273275648)
+23:11:00,783 INFO anaconda: spoke is ready: SoftwareSelectionSpoke
+23:11:00,789 INFO anaconda: spoke is ready: SourceSpoke
+23:11:01,366 INFO anaconda: Module initialized: SourceSpoke
+23:11:01,366 INFO anaconda: All modules have been initialized.
+23:11:01,367 DEBUG anaconda: OSCAP addon: Anaconda init_done signal triggered
+23:11:01,367 INFO anaconda: Thread Done: AnaSourceWatcher (140542370076416)
+23:11:01,368 DEBUG anaconda: OSCAP addon: all Anaconda spokes have been initialized - continuing
+23:11:01,372 INFO anaconda: Thread Done: OSCAPguiWaitForDataFetchThread (140542247606016)
+23:11:01,385 INFO anaconda: spoke is ready: SourceSpoke
+23:11:01,391 INFO anaconda: spoke is ready: OSCAPSpoke
+23:11:01,392 INFO anaconda: setting OSCAPSpoke status to: Ningún perfil seleccionado
+23:11:01,397 INFO anaconda: spoke is ready: OSCAPSpoke
+23:11:01,398 INFO anaconda: setting OSCAPSpoke status to: Ningún perfil seleccionado
+23:11:01,403 INFO anaconda: spoke is ready: OSCAPSpoke
+23:11:01,403 INFO anaconda: setting OSCAPSpoke status to: Ningún perfil seleccionado
+23:11:03,224 DEBUG anaconda: Entered spoke: SoftwareSelectionSpoke
+23:11:07,607 DEBUG anaconda: Environment selected for installation: graphical-server-environment
+23:11:07,608 DEBUG anaconda: Groups selected for installation: []
+23:11:07,609 DEBUG anaconda: Left spoke: SoftwareSelectionSpoke
+23:11:07,612 INFO anaconda: Running Thread: AnaCheckSoftwareThread (140542247606016)
+23:11:07,773 INFO anaconda: spoke is not ready: SoftwareSelectionSpoke
+23:11:07,782 INFO anaconda: spoke is not ready: SourceSpoke
+23:11:07,784 INFO anaconda: setting SoftwareSelectionSpoke status to: Verificando las dependencias del software…
+23:11:10,694 DEBUG anaconda: Entered spoke: StorageSpoke
+23:11:15,885 DEBUG anaconda: disk free: 60 GiB  fs free: 0 B  sw needs: 997,32 MiB  auto swap: 8064 MiB
+23:11:16,051 INFO anaconda: Running Thread: AnaExecuteStorageThread (140542370076416)
+23:11:16,052 DEBUG anaconda: Left spoke: StorageSpoke
+23:11:16,263 DEBUG anaconda: Entered spoke: CustomPartitioningSpoke
+23:11:16,497 DEBUG anaconda: new disk order: []
+23:11:16,502 DEBUG anaconda: Bootloader: /boot partition is not present, dry run True
+23:11:16,503 DEBUG anaconda: Bootloader: fallback use first disk return from Blivet 'sda' as boot drive, dry run True
+23:11:16,546 DEBUG anaconda: new disk order: []
+23:11:16,553 DEBUG anaconda: Bootloader: /boot partition is not present, dry run False
+23:11:16,556 DEBUG anaconda: Bootloader: fallback use first disk return from Blivet 'sda' as boot drive, dry run False
+23:11:16,650 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+23:11:16,651 DEBUG anaconda: _is_valid_size(sda) returning True
+23:11:16,654 DEBUG anaconda: _is_valid_location(sda) returning True
+23:11:16,658 DEBUG anaconda: _is_valid_format(sda) returning True
+23:11:16,662 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+23:11:16,736 INFO anaconda: Thread Done: AnaExecuteStorageThread (140542370076416)
+23:11:17,028 DEBUG anaconda: ui: devices=['/LiveOS/rootfs.img', '/overlay (deleted)', '/run/install/repo/LiveOS/squashfs.img', u'live-base', u'live-rw', u'loop0', u'loop1', u'loop2', u'sda', u'sr0']
+23:11:17,029 DEBUG anaconda: ui: unused=[]
+23:11:17,031 DEBUG anaconda: ui: new_devices=[]
+23:11:17,065 DEBUG anaconda: page clicked: Nueva CentOS 7 instalación
+23:11:17,066 DEBUG anaconda: show mountpoint: Nueva CentOS 7 instalación
+23:11:17,067 DEBUG anaconda: show mountpoint: Nueva CentOS 7 instalación
+23:11:17,193 INFO anaconda: spoke is not ready: StorageSpoke
+23:11:17,201 INFO anaconda: setting StorageSpoke status to: Guardando la configuración de almacenamiento…
+23:11:17,217 INFO anaconda: spoke is ready: StorageSpoke
+23:11:23,427 DEBUG anaconda: running automatic partitioning
+23:11:25,986 DEBUG anaconda: new disk order: []
+23:11:26,087 DEBUG anaconda: sda matches [u'sda'] for devicetree=<blivet.devicetree.DeviceTree object at 0x6aa0c90> and disks_only=True
+23:11:26,439 INFO anaconda: Thread Done: AnaCheckSoftwareThread (140542247606016)
+23:11:26,548 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+23:11:26,549 DEBUG anaconda: _is_valid_size(sda) returning True
+23:11:26,550 DEBUG anaconda: _is_valid_location(sda) returning True
+23:11:26,551 DEBUG anaconda: _is_valid_format(sda) returning True
+23:11:26,552 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+23:11:27,348 DEBUG anaconda: new disk order: []
+23:11:27,369 DEBUG anaconda: sda matches [u'sda'] for devicetree=<blivet.devicetree.DeviceTree object at 0x6aa0c90> and disks_only=True
+23:11:27,374 DEBUG anaconda: stage1 device cannot be of type lvmvg
+23:11:27,375 DEBUG anaconda: stage1 device cannot be of type lvmlv
+23:11:27,375 DEBUG anaconda: stage1 device cannot be of type lvmlv
+23:11:27,376 DEBUG anaconda: stage1 device cannot be of type lvmlv
+23:11:27,377 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+23:11:27,377 DEBUG anaconda: _is_valid_size(sda) returning True
+23:11:27,378 DEBUG anaconda: _is_valid_location(sda) returning True
+23:11:27,378 DEBUG anaconda: _is_valid_format(sda) returning True
+23:11:27,378 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+23:11:27,378 DEBUG anaconda: finished automatic partitioning
+23:11:27,402 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+23:11:27,402 DEBUG anaconda: _is_valid_size(sda) returning True
+23:11:27,402 DEBUG anaconda: _is_valid_location(sda) returning True
+23:11:27,403 DEBUG anaconda: _is_valid_format(sda) returning True
+23:11:27,403 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+23:11:27,403 DEBUG anaconda: _is_valid_disklabel(sda1) returning True
+23:11:27,403 DEBUG anaconda: _is_valid_size(sda1) returning True
+23:11:27,404 DEBUG anaconda: _is_valid_location(sda1) returning True
+23:11:27,404 DEBUG anaconda: _is_valid_partition(sda1) returning True
+23:11:27,405 DEBUG anaconda: _is_valid_format(sda1) returning True
+23:11:27,405 DEBUG anaconda: is_valid_stage2_device(sda1) returning True
+23:11:27,406 DEBUG anaconda: Storage check started with constraints {'must_be_on_linuxfs': set(['/tmp', '/var', '/usr', '/home', '/', '/usr/lib', '/usr/share']), 'must_be_on_root': set(['/etc', '/bin', '/proc', '/sbin', '/dev', '/lib', 'lost+found', '/mnt', '/root']), 'min_ram': 410, 'req_partition_sizes': {}, 'min_root': Size('250 MiB'), 'must_not_be_on_root': set([]), 'root_device_types': set([]), 'min_partition_sizes': {'/boot': Size('200 MiB'), '/home': Size('100 MiB'), '/var': Size('384 MiB'), '/tmp': Size('50 MiB'), '/usr': Size('250 MiB')}}.
+23:11:27,407 DEBUG anaconda: Run sanity check verify_root.
+23:11:27,407 DEBUG anaconda: Run sanity check verify_partition_sizes.
+23:11:27,407 DEBUG anaconda: Run sanity check verify_partition_format_sizes.
+23:11:27,407 DEBUG anaconda: Run sanity check verify_bootloader.
+23:11:27,407 DEBUG anaconda: Run sanity check verify_gpt_biosboot.
+23:11:27,407 DEBUG anaconda: Run sanity check verify_swap.
+23:11:27,408 DEBUG anaconda: Run sanity check verify_swap_uuid.
+23:11:27,408 DEBUG anaconda: Run sanity check verify_mountpoints_on_linuxfs.
+23:11:27,408 DEBUG anaconda: Run sanity check verify_mountpoints_on_root.
+23:11:27,408 DEBUG anaconda: Run sanity check verify_mountpoints_not_on_root.
+23:11:27,408 DEBUG anaconda: Skipped sanity check verify_luks_devices_have_key.
+23:11:27,408 DEBUG anaconda: Storage check finished with success.
+23:11:27,409 DEBUG anaconda: refreshing ui
+23:11:27,414 DEBUG anaconda: ui: devices=['/LiveOS/rootfs.img', '/overlay (deleted)', '/run/install/repo/LiveOS/squashfs.img', 'centos', 'centos-home', 'centos-root', 'centos-swap', u'live-base', u'live-rw', u'loop0', u'loop1', u'loop2', u'sda', 'sda1', 'sda2', u'sr0']
+23:11:27,414 DEBUG anaconda: ui: unused=[]
+23:11:27,415 DEBUG anaconda: ui: new_devices=['centos-root', 'centos-home', 'sda1', 'centos-swap']
+23:11:27,452 DEBUG anaconda: page clicked: Nueva CentOS 7 instalación
+23:11:27,452 DEBUG anaconda: show mountpoint: Nueva CentOS 7 instalación
+23:11:27,453 DEBUG anaconda: populate_right_side: non-existent 1024 MiB partition sda1 (163) with non-existent xfs filesystem mounted at /boot
+23:11:27,464 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:27,464 DEBUG anaconda: updated device_container_name to None
+23:11:27,465 DEBUG anaconda: updated device_container_raid_level to None
+23:11:27,465 DEBUG anaconda: updated device_container_encrypted to False
+23:11:27,465 DEBUG anaconda: updated device_container_size to 0
+23:11:27,472 DEBUG anaconda: device_type_changed: 2 <gi.overrides.Gtk.TreeModelRow object at 0x5d37650>
+23:11:27,474 DEBUG anaconda: populate_raid: 2, None
+23:11:27,475 DEBUG anaconda: populate_raid: 2, None
+23:11:27,475 DEBUG anaconda: populate_right_side: non-existent 1024 MiB partition sda1 (163) with non-existent xfs filesystem mounted at /boot
+23:11:27,486 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:27,487 DEBUG anaconda: updated device_container_name to None
+23:11:27,487 DEBUG anaconda: updated device_container_raid_level to None
+23:11:27,487 DEBUG anaconda: updated device_container_encrypted to False
+23:11:27,487 DEBUG anaconda: updated device_container_size to 0
+23:11:27,492 DEBUG anaconda: device_type_changed: 2 <gi.overrides.Gtk.TreeModelRow object at 0x63b73d0>
+23:11:27,492 DEBUG anaconda: populate_raid: 2, None
+23:11:27,493 DEBUG anaconda: populate_raid: 2, None
+23:11:27,493 DEBUG anaconda: show mountpoint: Nueva CentOS 7 instalación
+23:11:27,493 DEBUG anaconda: finished refreshing ui
+23:11:27,494 DEBUG anaconda: updating space display
+23:11:27,503 DEBUG anaconda: finished updating space display
+23:11:27,506 INFO anaconda: spoke is ready: SoftwareSelectionSpoke
+23:11:27,508 INFO anaconda: spoke is ready: SourceSpoke
+23:11:31,564 DEBUG anaconda: current selector: non-existent 1024 MiB partition sda1 (163) with non-existent xfs filesystem mounted at /boot
+23:11:31,599 DEBUG anaconda: new selector: non-existent 17,39 GiB lvmlv centos-home (179) with non-existent xfs filesystem mounted at /home
+23:11:31,623 DEBUG anaconda: populate_right_side: non-existent 17,39 GiB lvmlv centos-home (179) with non-existent xfs filesystem mounted at /home
+23:11:31,647 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:31,648 DEBUG anaconda: updated device_container_name to centos
+23:11:31,649 DEBUG anaconda: updated device_container_raid_level to None
+23:11:31,650 DEBUG anaconda: updated device_container_encrypted to False
+23:11:31,651 DEBUG anaconda: updated device_container_size to 0
+23:11:31,662 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x7bff150>
+23:11:31,663 DEBUG anaconda: populate_raid: 0, None
+23:11:31,665 DEBUG anaconda: populate_raid: 0, None
+23:11:31,702 DEBUG anaconda: new container selection: centos
+23:11:31,702 DEBUG anaconda: default container is centos
+23:11:31,705 DEBUG anaconda: populate_right_side: non-existent 17,39 GiB lvmlv centos-home (179) with non-existent xfs filesystem mounted at /home
+23:11:31,730 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:31,731 DEBUG anaconda: updated device_container_name to centos
+23:11:31,732 DEBUG anaconda: updated device_container_raid_level to None
+23:11:31,732 DEBUG anaconda: updated device_container_encrypted to False
+23:11:31,733 DEBUG anaconda: updated device_container_size to 0
+23:11:31,742 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x7fd292dd7e10>
+23:11:31,743 DEBUG anaconda: populate_raid: 0, None
+23:11:31,744 DEBUG anaconda: populate_raid: 0, None
+23:11:31,778 DEBUG anaconda: new container selection: centos
+23:11:31,779 DEBUG anaconda: default container is centos
+23:11:38,418 DEBUG anaconda: current selector: non-existent 17,39 GiB lvmlv centos-home (179) with non-existent xfs filesystem mounted at /home
+23:11:38,445 INFO anaconda: ui: saving changes to device centos-home
+23:11:38,446 DEBUG anaconda: reformat: True
+23:11:38,536 DEBUG anaconda: old disks: [u'sda']
+23:11:38,537 DEBUG anaconda: new disks: [u'sda']
+23:11:38,537 DEBUG anaconda: device: non-existent 17,39 GiB lvmlv centos-home (179) with non-existent xfs filesystem mounted at /home
+23:11:38,560 DEBUG anaconda: old container_encrypted: False
+23:11:38,561 DEBUG anaconda: new container_encrypted: False
+23:11:38,561 DEBUG anaconda: old name: home
+23:11:38,562 DEBUG anaconda: new name: home
+23:11:38,562 DEBUG anaconda: old encrypted: False
+23:11:38,562 DEBUG anaconda: new encrypted: False
+23:11:38,563 DEBUG anaconda: old container_raid_level: None
+23:11:38,563 DEBUG anaconda: new container_raid_level: None
+23:11:38,563 DEBUG anaconda: old raid_level: None
+23:11:38,564 DEBUG anaconda: new raid_level: None
+23:11:38,564 DEBUG anaconda: old fstype: xfs
+23:11:38,564 DEBUG anaconda: new fstype: xfs
+23:11:38,565 DEBUG anaconda: old min_luks_entropy: 256
+23:11:38,565 DEBUG anaconda: new min_luks_entropy: 256
+23:11:38,566 DEBUG anaconda: old device_type: 0
+23:11:38,566 DEBUG anaconda: new device_type: 0
+23:11:38,566 DEBUG anaconda: old container_name: centos
+23:11:38,567 DEBUG anaconda: new container_name: centos
+23:11:38,567 DEBUG anaconda: old mountpoint: /home
+23:11:38,567 DEBUG anaconda: new mountpoint: /home
+23:11:38,568 DEBUG anaconda: old label: 
+23:11:38,568 DEBUG anaconda: new label: 
+23:11:38,568 DEBUG anaconda: old container_size: 0
+23:11:38,569 DEBUG anaconda: new container_size: 0
+23:11:38,569 DEBUG anaconda: old size: 17,39 GiB
+23:11:38,593 DEBUG anaconda: new size: 10 GiB
+23:11:39,672 DEBUG anaconda: populate_right_side: non-existent 10 GiB lvmlv centos-home (179) with non-existent xfs filesystem mounted at /home
+23:11:39,684 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:39,684 DEBUG anaconda: updated device_container_name to centos
+23:11:39,685 DEBUG anaconda: updated device_container_raid_level to None
+23:11:39,685 DEBUG anaconda: updated device_container_encrypted to False
+23:11:39,685 DEBUG anaconda: updated device_container_size to 0
+23:11:39,690 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x5d73a90>
+23:11:39,691 DEBUG anaconda: populate_raid: 0, None
+23:11:39,707 DEBUG anaconda: new container selection: centos
+23:11:39,707 DEBUG anaconda: default container is centos
+23:11:39,708 DEBUG anaconda: populate_raid: 0, None
+23:11:39,725 DEBUG anaconda: new container selection: centos
+23:11:39,725 DEBUG anaconda: default container is centos
+23:11:39,726 DEBUG anaconda: leaving save_right_side
+23:11:39,726 DEBUG anaconda: new selector: non-existent 6144 MiB lvmlv centos-swap (185) with non-existent swap
+23:11:39,737 DEBUG anaconda: populate_right_side: non-existent 6144 MiB lvmlv centos-swap (185) with non-existent swap
+23:11:39,748 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:39,748 DEBUG anaconda: updated device_container_name to centos
+23:11:39,749 DEBUG anaconda: updated device_container_raid_level to None
+23:11:39,749 DEBUG anaconda: updated device_container_encrypted to False
+23:11:39,749 DEBUG anaconda: updated device_container_size to 0
+23:11:39,755 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x7fd292dd7a50>
+23:11:39,756 DEBUG anaconda: populate_raid: 0, None
+23:11:39,756 DEBUG anaconda: populate_raid: 0, None
+23:11:39,772 DEBUG anaconda: new container selection: centos
+23:11:39,772 DEBUG anaconda: default container is centos
+23:11:39,773 DEBUG anaconda: populate_right_side: non-existent 6144 MiB lvmlv centos-swap (185) with non-existent swap
+23:11:39,785 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:39,785 DEBUG anaconda: updated device_container_name to centos
+23:11:39,786 DEBUG anaconda: updated device_container_raid_level to None
+23:11:39,786 DEBUG anaconda: updated device_container_encrypted to False
+23:11:39,786 DEBUG anaconda: updated device_container_size to 0
+23:11:39,791 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x7fd292dd7a50>
+23:11:39,791 DEBUG anaconda: populate_raid: 0, None
+23:11:39,792 DEBUG anaconda: populate_raid: 0, None
+23:11:39,808 DEBUG anaconda: new container selection: centos
+23:11:39,808 DEBUG anaconda: default container is centos
+23:11:43,996 DEBUG anaconda: current selector: non-existent 6144 MiB lvmlv centos-swap (185) with non-existent swap
+23:11:44,025 DEBUG anaconda: new selector: non-existent 35,61 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:44,050 DEBUG anaconda: populate_right_side: non-existent 35,61 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:44,077 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:44,077 DEBUG anaconda: updated device_container_name to centos
+23:11:44,078 DEBUG anaconda: updated device_container_raid_level to None
+23:11:44,078 DEBUG anaconda: updated device_container_encrypted to False
+23:11:44,079 DEBUG anaconda: updated device_container_size to 0
+23:11:44,095 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x6808510>
+23:11:44,097 DEBUG anaconda: populate_raid: 0, None
+23:11:44,098 DEBUG anaconda: populate_raid: 0, None
+23:11:44,132 DEBUG anaconda: new container selection: centos
+23:11:44,133 DEBUG anaconda: default container is centos
+23:11:44,135 DEBUG anaconda: populate_right_side: non-existent 35,61 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:44,165 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:44,165 DEBUG anaconda: updated device_container_name to centos
+23:11:44,165 DEBUG anaconda: updated device_container_raid_level to None
+23:11:44,166 DEBUG anaconda: updated device_container_encrypted to False
+23:11:44,166 DEBUG anaconda: updated device_container_size to 0
+23:11:44,177 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x6808a50>
+23:11:44,178 DEBUG anaconda: populate_raid: 0, None
+23:11:44,179 DEBUG anaconda: populate_raid: 0, None
+23:11:44,215 DEBUG anaconda: new container selection: centos
+23:11:44,215 DEBUG anaconda: default container is centos
+23:11:50,536 DEBUG anaconda: current selector: non-existent 35,61 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:50,564 INFO anaconda: ui: saving changes to device centos-root
+23:11:50,565 DEBUG anaconda: reformat: True
+23:11:50,633 DEBUG anaconda: old disks: [u'sda']
+23:11:50,634 DEBUG anaconda: new disks: [u'sda']
+23:11:50,634 DEBUG anaconda: device: non-existent 35,61 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:50,660 DEBUG anaconda: old container_encrypted: False
+23:11:50,661 DEBUG anaconda: new container_encrypted: False
+23:11:50,661 DEBUG anaconda: old name: root
+23:11:50,662 DEBUG anaconda: new name: root
+23:11:50,662 DEBUG anaconda: old encrypted: False
+23:11:50,662 DEBUG anaconda: new encrypted: False
+23:11:50,663 DEBUG anaconda: old container_raid_level: None
+23:11:50,663 DEBUG anaconda: new container_raid_level: None
+23:11:50,663 DEBUG anaconda: old raid_level: None
+23:11:50,664 DEBUG anaconda: new raid_level: None
+23:11:50,664 DEBUG anaconda: old fstype: xfs
+23:11:50,664 DEBUG anaconda: new fstype: xfs
+23:11:50,665 DEBUG anaconda: old min_luks_entropy: 256
+23:11:50,665 DEBUG anaconda: new min_luks_entropy: 256
+23:11:50,665 DEBUG anaconda: old device_type: 0
+23:11:50,666 DEBUG anaconda: new device_type: 0
+23:11:50,666 DEBUG anaconda: old container_name: centos
+23:11:50,666 DEBUG anaconda: new container_name: centos
+23:11:50,667 DEBUG anaconda: old mountpoint: /
+23:11:50,668 DEBUG anaconda: new mountpoint: /
+23:11:50,668 DEBUG anaconda: old label: 
+23:11:50,668 DEBUG anaconda: new label: 
+23:11:50,669 DEBUG anaconda: old container_size: 0
+23:11:50,669 DEBUG anaconda: new container_size: 0
+23:11:50,669 DEBUG anaconda: old size: 35,61 GiB
+23:11:50,699 DEBUG anaconda: new size: 50,61 GiB
+23:11:51,714 DEBUG anaconda: populate_right_side: non-existent 43 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:51,726 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:51,726 DEBUG anaconda: updated device_container_name to centos
+23:11:51,726 DEBUG anaconda: updated device_container_raid_level to None
+23:11:51,726 DEBUG anaconda: updated device_container_encrypted to False
+23:11:51,726 DEBUG anaconda: updated device_container_size to 0
+23:11:51,731 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x68057d0>
+23:11:51,732 DEBUG anaconda: populate_raid: 0, None
+23:11:51,749 DEBUG anaconda: new container selection: centos
+23:11:51,749 DEBUG anaconda: default container is centos
+23:11:51,750 DEBUG anaconda: populate_raid: 0, None
+23:11:51,765 DEBUG anaconda: new container selection: centos
+23:11:51,765 DEBUG anaconda: default container is centos
+23:11:51,766 DEBUG anaconda: leaving save_right_side
+23:11:51,766 DEBUG anaconda: new selector: non-existent 6144 MiB lvmlv centos-swap (185) with non-existent swap
+23:11:51,777 DEBUG anaconda: populate_right_side: non-existent 6144 MiB lvmlv centos-swap (185) with non-existent swap
+23:11:51,788 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:51,788 DEBUG anaconda: updated device_container_name to centos
+23:11:51,789 DEBUG anaconda: updated device_container_raid_level to None
+23:11:51,789 DEBUG anaconda: updated device_container_encrypted to False
+23:11:51,789 DEBUG anaconda: updated device_container_size to 0
+23:11:51,795 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x67f6250>
+23:11:51,796 DEBUG anaconda: populate_raid: 0, None
+23:11:51,796 DEBUG anaconda: populate_raid: 0, None
+23:11:51,812 DEBUG anaconda: new container selection: centos
+23:11:51,812 DEBUG anaconda: default container is centos
+23:11:51,813 DEBUG anaconda: populate_right_side: non-existent 6144 MiB lvmlv centos-swap (185) with non-existent swap
+23:11:51,823 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:51,823 DEBUG anaconda: updated device_container_name to centos
+23:11:51,824 DEBUG anaconda: updated device_container_raid_level to None
+23:11:51,824 DEBUG anaconda: updated device_container_encrypted to False
+23:11:51,824 DEBUG anaconda: updated device_container_size to 0
+23:11:51,828 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x67f6250>
+23:11:51,829 DEBUG anaconda: populate_raid: 0, None
+23:11:51,829 DEBUG anaconda: populate_raid: 0, None
+23:11:51,843 DEBUG anaconda: new container selection: centos
+23:11:51,843 DEBUG anaconda: default container is centos
+23:11:53,518 DEBUG anaconda: current selector: non-existent 6144 MiB lvmlv centos-swap (185) with non-existent swap
+23:11:53,545 DEBUG anaconda: new selector: non-existent 43 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:53,569 DEBUG anaconda: populate_right_side: non-existent 43 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:53,592 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:53,593 DEBUG anaconda: updated device_container_name to centos
+23:11:53,593 DEBUG anaconda: updated device_container_raid_level to None
+23:11:53,593 DEBUG anaconda: updated device_container_encrypted to False
+23:11:53,594 DEBUG anaconda: updated device_container_size to 0
+23:11:53,608 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x67f6250>
+23:11:53,609 DEBUG anaconda: populate_raid: 0, None
+23:11:53,610 DEBUG anaconda: populate_raid: 0, None
+23:11:53,644 DEBUG anaconda: new container selection: centos
+23:11:53,644 DEBUG anaconda: default container is centos
+23:11:53,646 DEBUG anaconda: populate_right_side: non-existent 43 GiB lvmlv centos-root (173) with non-existent xfs filesystem mounted at /
+23:11:53,672 DEBUG anaconda: updated device_disks to [u'sda']
+23:11:53,672 DEBUG anaconda: updated device_container_name to centos
+23:11:53,673 DEBUG anaconda: updated device_container_raid_level to None
+23:11:53,673 DEBUG anaconda: updated device_container_encrypted to False
+23:11:53,673 DEBUG anaconda: updated device_container_size to 0
+23:11:53,685 DEBUG anaconda: device_type_changed: 0 <gi.overrides.Gtk.TreeModelRow object at 0x5d6d8d0>
+23:11:53,686 DEBUG anaconda: populate_raid: 0, None
+23:11:53,687 DEBUG anaconda: populate_raid: 0, None
+23:11:53,722 DEBUG anaconda: new container selection: centos
+23:11:53,722 DEBUG anaconda: default container is centos
+23:11:58,063 DEBUG anaconda: new disk order: []
+23:11:58,101 DEBUG anaconda: sda matches [u'sda'] for devicetree=<blivet.devicetree.DeviceTree object at 0x7fd29ffbdad0> and disks_only=True
+23:11:58,110 DEBUG anaconda: stage1 device cannot be of type lvmvg
+23:11:58,111 DEBUG anaconda: stage1 device cannot be of type lvmlv
+23:11:58,112 DEBUG anaconda: stage1 device cannot be of type lvmlv
+23:11:58,113 DEBUG anaconda: stage1 device cannot be of type lvmlv
+23:11:58,116 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+23:11:58,116 DEBUG anaconda: _is_valid_size(sda) returning True
+23:11:58,116 DEBUG anaconda: _is_valid_location(sda) returning True
+23:11:58,117 DEBUG anaconda: _is_valid_format(sda) returning True
+23:11:58,117 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+23:11:58,166 DEBUG anaconda: _is_valid_disklabel(sda) returning True
+23:11:58,166 DEBUG anaconda: _is_valid_size(sda) returning True
+23:11:58,166 DEBUG anaconda: _is_valid_location(sda) returning True
+23:11:58,166 DEBUG anaconda: _is_valid_format(sda) returning True
+23:11:58,167 DEBUG anaconda: is_valid_stage1_device(sda) returning True
+23:11:58,167 DEBUG anaconda: _is_valid_disklabel(sda1) returning True
+23:11:58,168 DEBUG anaconda: _is_valid_size(sda1) returning True
+23:11:58,169 DEBUG anaconda: _is_valid_location(sda1) returning True
+23:11:58,169 DEBUG anaconda: _is_valid_partition(sda1) returning True
+23:11:58,170 DEBUG anaconda: _is_valid_format(sda1) returning True
+23:11:58,171 DEBUG anaconda: is_valid_stage2_device(sda1) returning True
+23:11:58,174 DEBUG anaconda: Storage check started with constraints {'must_be_on_linuxfs': set(['/tmp', '/var', '/usr', '/home', '/', '/usr/lib', '/usr/share']), 'must_be_on_root': set(['/etc', '/bin', '/proc', '/sbin', '/dev', '/lib', 'lost+found', '/mnt', '/root']), 'min_ram': 410, 'req_partition_sizes': {}, 'min_root': Size('250 MiB'), 'must_not_be_on_root': set([]), 'root_device_types': set([]), 'min_partition_sizes': {'/boot': Size('200 MiB'), '/home': Size('100 MiB'), '/var': Size('384 MiB'), '/tmp': Size('50 MiB'), '/usr': Size('250 MiB')}}.
+23:11:58,175 DEBUG anaconda: Run sanity check verify_root.
+23:11:58,175 DEBUG anaconda: Run sanity check verify_partition_sizes.
+23:11:58,176 DEBUG anaconda: Run sanity check verify_partition_format_sizes.
+23:11:58,176 DEBUG anaconda: Run sanity check verify_bootloader.
+23:11:58,176 DEBUG anaconda: Run sanity check verify_gpt_biosboot.
+23:11:58,176 DEBUG anaconda: Run sanity check verify_swap.
+23:11:58,177 DEBUG anaconda: Run sanity check verify_swap_uuid.
+23:11:58,177 DEBUG anaconda: Run sanity check verify_mountpoints_on_linuxfs.
+23:11:58,177 DEBUG anaconda: Run sanity check verify_mountpoints_on_root.
+23:11:58,178 DEBUG anaconda: Run sanity check verify_mountpoints_not_on_root.
+23:11:58,178 DEBUG anaconda: Run sanity check verify_luks_devices_have_key.
+23:11:58,178 DEBUG anaconda: Storage check finished with success.
+23:11:58,228 INFO anaconda: fs space: 43 GiB  needed: 3631,27 MiB
+23:11:58,249 INFO anaconda: spoke is not ready: StorageSpoke
+23:11:58,249 INFO anaconda: setting StorageSpoke status to: Probando la configuración de almacenamiento…
+23:11:58,252 INFO anaconda: fs space: 43 GiB  needed: 3631,27 MiB
+23:11:58,272 INFO anaconda: spoke is ready: StorageSpoke
+23:12:00,987 DEBUG anaconda: Left spoke: CustomPartitioningSpoke
+23:12:01,077 INFO anaconda: fs space: 43 GiB  needed: 3631,27 MiB
+23:12:01,129 INFO anaconda: fs space: 43 GiB  needed: 3631,27 MiB
+23:12:01,176 INFO anaconda: spoke is ready: StorageSpoke
+23:12:04,642 DEBUG anaconda: Entered spoke: OSCAPSpoke
+23:12:08,467 INFO anaconda: fs space: 43 GiB  needed: 3631,27 MiB
+23:12:08,513 INFO anaconda: spoke is ready: OSCAPSpoke
+23:12:08,514 INFO anaconda: setting OSCAPSpoke status to: Ningún perfil seleccionado
+23:12:09,740 DEBUG anaconda: Left spoke: OSCAPSpoke
+23:12:09,825 INFO anaconda: fs space: 43 GiB  needed: 3631,27 MiB
+23:12:09,873 INFO anaconda: fs space: 43 GiB  needed: 3631,27 MiB
+23:12:09,915 INFO anaconda: spoke is ready: OSCAPSpoke
+23:12:09,916 INFO anaconda: setting OSCAPSpoke status to: Ningún perfil seleccionado
+23:12:14,699 DEBUG anaconda: Entered spoke: NetworkSpoke
+23:12:22,529 INFO anaconda: setting installation environment hostname to openshiftrunner1
+23:12:24,032 INFO anaconda: network: configuring connection 0d81daa9-575d-4dfb-ad3f-f011ea0317f5 device ens192 ssid None
+23:13:10,518 DEBUG anaconda: nm-c-e exited with status 0
+23:13:12,897 INFO anaconda: network: device ens192 switched on
+23:13:13,027 INFO anaconda: setting NetworkSpoke status to: Conectando…
+23:13:13,363 INFO anaconda: setting NetworkSpoke status to: Conexión cableada (ens192) conectada
+23:13:13,370 DEBUG anaconda: IPv4 object changed
+23:13:13,441 DEBUG anaconda: IPv6 object changed
+23:13:14,022 INFO anaconda: setting NetworkSpoke status to: Conexión cableada (ens192) conectada
+23:13:15,764 DEBUG anaconda: updating hostname openshiftrunner1
+23:13:15,789 DEBUG anaconda: network: apply ksdata # Network information
+network  --bootproto=static --device=ens192 --gateway=192.168.130.1 --ip=192.168.130.108 --nameserver=192.168.130.17,192.168.130.6 --netmask=255.255.255.0 --onboot=off --ipv6=auto --activate
+network  --hostname=openshiftrunner1
+
+23:13:15,790 DEBUG anaconda: network spoke (apply), payload refresh skipped (running outside of installation environment)
+23:13:15,790 DEBUG anaconda: Left spoke: NetworkSpoke
+23:13:15,980 INFO anaconda: fs space: 43 GiB  needed: 3631,27 MiB
+23:13:18,568 DEBUG anaconda: Left hub: SummaryHub
+23:13:18,568 DEBUG anaconda: Entered hub: ProgressHub
+23:13:18,580 INFO anaconda: Adding controller: ProgressHub
+23:13:18,591 INFO anaconda: Module initialized: PasswordSpoke
+23:13:18,618 INFO anaconda: Module initialized: UserSpoke
+23:13:18,621 INFO anaconda: Initialization of all modules (2) has been started.
+23:13:18,622 INFO anaconda: All modules have been initialized.
+23:13:18,626 INFO anaconda: Running Thread: AnaInstallThread (140542361683712)
+23:13:19,505 INFO anaconda: Ajustando el entorno de instalación
+23:13:19,506 INFO anaconda: Ajustando el entorno de instalación
+23:13:19,763 INFO anaconda: Creando disklabel en /dev/sda
+23:13:19,905 INFO anaconda: disklabel creado en /dev/sda
+23:13:20,440 DEBUG anaconda: Entered spoke: PasswordSpoke
+23:13:20,601 INFO anaconda: Creando lvmpv en /dev/sda2
+23:13:20,906 INFO anaconda: lvmpv creado en /dev/sda2
+23:13:21,381 INFO anaconda: Creando xfs en /dev/mapper/centos-root
+23:13:23,623 INFO anaconda: xfs creado en /dev/mapper/centos-root
+23:13:23,905 INFO anaconda: Creando xfs en /dev/mapper/centos-home
+23:13:24,949 INFO anaconda: xfs creado en /dev/mapper/centos-home
+23:13:25,342 INFO anaconda: Creando swap en /dev/mapper/centos-swap
+23:13:25,489 INFO anaconda: swap creado en /dev/mapper/centos-swap
+23:13:25,517 INFO anaconda: Creando xfs en /dev/sda1
+23:13:26,042 INFO anaconda: xfs creado en /dev/sda1
+23:13:27,062 INFO anaconda: Ejecutando los scripts de preinstalación
+23:13:27,062 INFO anaconda: Ejecutando los scripts de preinstalación
+23:13:31,751 DEBUG anaconda: Left spoke: PasswordSpoke
+23:13:32,656 DEBUG anaconda: Entered spoke: UserSpoke
+23:13:46,714 DEBUG anaconda: Left spoke: UserSpoke
+23:22:58,446 INFO anaconda: Instalando gestor de arranque
+23:22:58,447 INFO anaconda: boot loader stage1 target device is sda
+23:22:58,447 INFO anaconda: boot loader stage2 target device is sda1
+23:22:58,451 DEBUG anaconda: new default image: <pyanaconda.bootloader.LinuxBootLoaderImage object at 0x7fd28e744a90>
+23:22:58,721 INFO anaconda: bootloader.py: mbr will be updated for grub2
+23:22:59,720 INFO anaconda: bootloader.py: used boot args: crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet 
+23:23:02,377 INFO anaconda: Instalando gestor de arranque
+23:23:02,378 INFO anaconda: Llevando a cabo tareas de postinstalación
+23:23:02,389 INFO anaconda: Llevando a cabo tareas de postinstalación
+23:23:02,390 INFO anaconda: Thread Done: AnaInstallThread (140542361683712)
+23:23:02,609 INFO anaconda: Running Thread: AnaConfigurationThread (140542361683712)
+23:23:02,611 INFO anaconda: Configurando el sistema instalado
+23:23:03,615 INFO anaconda: Configurando el sistema instalado
+23:23:03,616 INFO anaconda: Escribiendo configuración de red
+23:23:03,619 INFO anaconda: setting installation environment hostname to openshiftrunner1
+23:23:03,745 DEBUG anaconda: network: setting ONBOOT value of ens192 to yes
+23:23:03,914 INFO anaconda: Escribiendo configuración de red
+23:23:03,915 INFO anaconda: Creando usuarios
+23:23:03,916 INFO anaconda: Clearing libuser.conf at /tmp/libuser._Cd2Sa
+23:23:04,126 INFO anaconda: Creando usuarios
+23:23:04,128 INFO anaconda: Configurando addons
+23:23:04,151 INFO anaconda: Configurando addons
+23:23:04,152 INFO anaconda: Generando initramfs
+23:23:59,757 INFO anaconda: Generando initramfs
+23:23:59,758 INFO anaconda: Ejecutando scripts de postinstalación
+23:23:59,759 INFO anaconda: Running kickstart %%post script(s)

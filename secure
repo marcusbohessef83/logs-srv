@@ -1,0 +1,23 @@
+Nov 22 15:21:11 openshiftrunner1 sshd[16404]: Invalid user marcusbohessef from 192.168.126.13 port 48124
+Nov 22 15:21:11 openshiftrunner1 sshd[16404]: input_userauth_request: invalid user marcusbohessef [preauth]
+Nov 22 15:21:25 openshiftrunner1 sshd[16404]: pam_unix(sshd:auth): check pass; user unknown
+Nov 22 15:21:25 openshiftrunner1 sshd[16404]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.126.13
+Nov 22 15:21:28 openshiftrunner1 sshd[16404]: Failed password for invalid user marcusbohessef from 192.168.126.13 port 48124 ssh2
+Nov 22 15:21:35 openshiftrunner1 sshd[16404]: pam_unix(sshd:auth): check pass; user unknown
+Nov 22 15:21:37 openshiftrunner1 sshd[16404]: Failed password for invalid user marcusbohessef from 192.168.126.13 port 48124 ssh2
+Nov 22 15:27:06 openshiftrunner1 sshd[16544]: Invalid user marcusbohessef from 192.168.126.13 port 48126
+Nov 22 15:27:06 openshiftrunner1 sshd[16544]: input_userauth_request: invalid user marcusbohessef [preauth]
+Nov 22 15:27:16 openshiftrunner1 sshd[16544]: pam_unix(sshd:auth): check pass; user unknown
+Nov 22 15:27:16 openshiftrunner1 sshd[16544]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.126.13
+Nov 22 15:27:18 openshiftrunner1 sshd[16544]: Failed password for invalid user marcusbohessef from 192.168.126.13 port 48126 ssh2
+Nov 22 15:27:21 openshiftrunner1 sshd[16544]: pam_unix(sshd:auth): check pass; user unknown
+Nov 22 15:27:23 openshiftrunner1 sshd[16544]: Failed password for invalid user marcusbohessef from 192.168.126.13 port 48126 ssh2
+Nov 22 15:27:59 openshiftrunner1 sshd[16544]: Connection closed by 192.168.126.13 port 48126 [preauth]
+Nov 22 15:27:59 openshiftrunner1 sshd[16544]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.126.13
+Nov 22 15:28:29 openshiftrunner1 sshd[16567]: Accepted password for soporte.bizware from 192.168.126.13 port 48128 ssh2
+Nov 22 15:28:29 openshiftrunner1 sshd[16567]: pam_unix(sshd:session): session opened for user soporte.bizware by (uid=0)
+Nov 22 15:33:23 openshiftrunner1 sudo: soporte.bizware : TTY=pts/0 ; PWD=/home/soporte.bizware ; USER=root ; COMMAND=/bin/last reboot
+Nov 22 15:35:58 openshiftrunner1 sudo: soporte.bizware : TTY=pts/0 ; PWD=/home/soporte.bizware ; USER=root ; COMMAND=/sbin/ausearch -i -m system_boot,system_shutdown
+Nov 22 15:36:24 openshiftrunner1 sudo: soporte.bizware : TTY=pts/0 ; PWD=/home/soporte.bizware ; USER=root ; COMMAND=/sbin/ausearch -i -m system_boot,system_shutdown
+Nov 22 15:45:35 openshiftrunner1 sudo: soporte.bizware : TTY=pts/0 ; PWD=/home/soporte.bizware ; USER=root ; COMMAND=/bin/su
+Nov 22 15:45:35 openshiftrunner1 su: pam_unix(su:session): session opened for user root by soporte.bizware(uid=0)

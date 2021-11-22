@@ -1,0 +1,85 @@
+03:09:26,324 DEBUG ifcfg: content of files (network initialization):
+03:09:26,332 DEBUG ifcfg: all settings: []
+03:09:26,676 DEBUG ifcfg: content of files (missing ifcfgs created for devices ['ens192']):
+03:09:26,676 DEBUG ifcfg: /etc/sysconfig/network-scripts/ifcfg-ens192:
+03:09:26,677 DEBUG ifcfg:   TYPE=Ethernet
+03:09:26,677 DEBUG ifcfg:   PROXY_METHOD=none
+03:09:26,677 DEBUG ifcfg:   BROWSER_ONLY=no
+03:09:26,678 DEBUG ifcfg:   BOOTPROTO=dhcp
+03:09:26,678 DEBUG ifcfg:   DEFROUTE=yes
+03:09:26,678 DEBUG ifcfg:   IPV4_FAILURE_FATAL=no
+03:09:26,678 DEBUG ifcfg:   IPV6INIT=yes
+03:09:26,678 DEBUG ifcfg:   IPV6_AUTOCONF=yes
+03:09:26,679 DEBUG ifcfg:   IPV6_DEFROUTE=yes
+03:09:26,679 DEBUG ifcfg:   IPV6_FAILURE_FATAL=no
+03:09:26,679 DEBUG ifcfg:   IPV6_ADDR_GEN_MODE=stable-privacy
+03:09:26,679 DEBUG ifcfg:   NAME=ens192
+03:09:26,679 DEBUG ifcfg:   UUID=0d81daa9-575d-4dfb-ad3f-f011ea0317f5
+03:09:26,679 DEBUG ifcfg:   DEVICE=ens192
+03:09:26,680 DEBUG ifcfg:   ONBOOT=no
+03:09:26,697 DEBUG ifcfg: all settings: [{'802-3-ethernet': {'auto-negotiate': False, 'mac-address-blacklist': [], 's390-options': {}}, 'connection': {'autoconnect': False, 'interface-name': 'ens192', 'uuid': '0d81daa9-575d-4dfb-ad3f-f011ea0317f5', 'type': '802-3-ethernet', 'id': 'ens192', 'permissions': []}, 'proxy': {}, 'ipv4': {'addresses': [], 'dns-search': [], 'route-data': [], 'dns': [], 'routes': [], 'address-data': [], 'method': 'auto'}, 'ipv6': {'addresses': [], 'dns-search': [], 'route-data': [], 'dns': [], 'routes': [], 'address-data': [], 'method': 'auto'}}]
+03:10:51,038 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+03:10:51,039 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+03:10:51,040 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+03:10:51,041 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+03:10:51,042 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+03:10:51,223 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+03:10:51,224 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+23:13:10,519 DEBUG ifcfg: content of files (nm-c-e run):
+23:13:10,519 DEBUG ifcfg: /etc/sysconfig/network-scripts/ifcfg-ens192:
+23:13:10,520 DEBUG ifcfg:   TYPE=Ethernet
+23:13:10,520 DEBUG ifcfg:   PROXY_METHOD=none
+23:13:10,520 DEBUG ifcfg:   BROWSER_ONLY=no
+23:13:10,520 DEBUG ifcfg:   BOOTPROTO=none
+23:13:10,521 DEBUG ifcfg:   DEFROUTE=yes
+23:13:10,521 DEBUG ifcfg:   IPV4_FAILURE_FATAL=no
+23:13:10,521 DEBUG ifcfg:   IPV6INIT=yes
+23:13:10,521 DEBUG ifcfg:   IPV6_AUTOCONF=yes
+23:13:10,521 DEBUG ifcfg:   IPV6_DEFROUTE=yes
+23:13:10,521 DEBUG ifcfg:   IPV6_FAILURE_FATAL=no
+23:13:10,523 DEBUG ifcfg:   IPV6_ADDR_GEN_MODE=stable-privacy
+23:13:10,523 DEBUG ifcfg:   NAME=ens192
+23:13:10,523 DEBUG ifcfg:   UUID=0d81daa9-575d-4dfb-ad3f-f011ea0317f5
+23:13:10,523 DEBUG ifcfg:   DEVICE=ens192
+23:13:10,524 DEBUG ifcfg:   ONBOOT=no
+23:13:10,524 DEBUG ifcfg:   IPADDR=192.168.130.108
+23:13:10,524 DEBUG ifcfg:   PREFIX=24
+23:13:10,524 DEBUG ifcfg:   GATEWAY=192.168.130.1
+23:13:10,524 DEBUG ifcfg:   DNS1=192.168.130.6
+23:13:10,524 DEBUG ifcfg:   DNS2=192.168.130.17
+23:13:10,525 DEBUG ifcfg:   DOMAIN=stomas.cst
+23:13:10,525 DEBUG ifcfg:   IPV6_PRIVACY=no
+23:13:10,544 DEBUG ifcfg: all settings: [{'802-3-ethernet': {'auto-negotiate': False, 'mac-address-blacklist': [], 's390-options': {}}, 'connection': {'autoconnect': False, 'interface-name': 'ens192', 'uuid': '0d81daa9-575d-4dfb-ad3f-f011ea0317f5', 'type': '802-3-ethernet', 'id': 'ens192', 'permissions': []}, 'proxy': {}, 'ipv4': {'addresses': [[1820502208L, 24L, 25340096L]], 'dns-search': ['stomas.cst'], 'method': 'manual', 'route-data': [], 'dns': [109226176L, 293775552L], 'routes': [], 'address-data': [{'prefix': 24L, 'address': '192.168.130.108'}], 'gateway': '192.168.130.1'}, 'ipv6': {'addresses': [], 'dns-search': [], 'route-data': [], 'ip6-privacy': 0, 'dns': [], 'routes': [], 'address-data': [], 'method': 'auto'}}]
+23:13:15,538 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+23:13:15,540 DEBUG ifcfg: IfcfFile.read /etc/sysconfig/network-scripts/ifcfg-ens192
+23:23:03,873 DEBUG ifcfg: IfcfFile.read /mnt/sysimage/etc/sysconfig/network-scripts/ifcfg-ens192
+23:23:03,876 DEBUG ifcfg: IfcfFile.read /mnt/sysimage/etc/sysconfig/network-scripts/ifcfg-ens192
+23:23:03,880 DEBUG ifcfg: IfcfFile.read /mnt/sysimage/etc/sysconfig/network-scripts/ifcfg-ens192
+23:23:03,882 DEBUG ifcfg: IfcfFile.read /mnt/sysimage/etc/sysconfig/network-scripts/ifcfg-ens192
+23:23:03,885 DEBUG ifcfg: IfcfFile.read /mnt/sysimage/etc/sysconfig/network-scripts/ifcfg-ens192
+23:23:03,887 DEBUG ifcfg: IfcfFile.read /mnt/sysimage/etc/sysconfig/network-scripts/ifcfg-ens192
+23:23:03,889 DEBUG ifcfg: IfcfgFile.set /mnt/sysimage/etc/sysconfig/network-scripts/ifcfg-ens192: (('ONBOOT', 'yes'),)
+23:23:03,892 DEBUG ifcfg: IfcfgFile.write /mnt/sysimage/etc/sysconfig/network-scripts/ifcfg-ens192:
+TYPE="Ethernet"
+PROXY_METHOD="none"
+BROWSER_ONLY="no"
+BOOTPROTO="none"
+DEFROUTE="yes"
+IPV4_FAILURE_FATAL="no"
+IPV6INIT="yes"
+IPV6_AUTOCONF="yes"
+IPV6_DEFROUTE="yes"
+IPV6_FAILURE_FATAL="no"
+IPV6_ADDR_GEN_MODE="stable-privacy"
+NAME="ens192"
+UUID="0d81daa9-575d-4dfb-ad3f-f011ea0317f5"
+DEVICE="ens192"
+ONBOOT="yes"
+IPADDR="192.168.130.108"
+PREFIX="24"
+GATEWAY="192.168.130.1"
+DNS1="192.168.130.6"
+DNS2="192.168.130.17"
+DOMAIN="stomas.cst"
+IPV6_PRIVACY="no"
+
